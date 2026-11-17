@@ -44,6 +44,12 @@ This has at least three issues independent of whether it generates useful toy fi
 
 [RotatingCosmology.lean](https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/RotatingCosmology.lean) formalizes exact algebraic consequences of the chosen formula and **explicitly does not claim** a rotating metric, cosmological observation or GR derivation. Its [status report](https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/ROTATION_COSMOLOGY.md) describes remaining obligations.
 
+## ROT-005: exact causal rotating expansion — mathematical evidence only
+
+The independently calculated [ROT-005 Korotkii–Obukhov example](../research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md) has a global time function, simultaneous physical vorticity and expansion, zero shear and a weak-energy-condition effective imperfect source. It shows that rotation and expansion **can** coexist mathematically in Einstein gravity (already known from the cited 1991 and 2020 literature), but does not show that the observed universe rotates.
+
+The example's source is **defined** from its Einstein tensor, not derived from a matter-field action; its rotation-to-expansion ratio is illustrative, not observational. A geometrically motivated ME-056 parameter identification fails, while another curvature parameter fits the same H²(a) curve exactly. Consequently ME-056 remains nonidentifying from scalar expansion alone.
+
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

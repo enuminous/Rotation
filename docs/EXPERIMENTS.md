@@ -4,6 +4,14 @@
 
 ## Tracks
 
+### ROT-005: expanding, rotating, causal Einstein geometry — completed bounded symbolic check
+
+[Report and exact outputs](../research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md). A frozen member of the published Korotkii–Obukhov metric family has H>0, omega²>0, shear=0, stable causality, and an exact Einstein tensor with a conserved effective source obeying the weak energy condition. The source T=G/kappa is defined **after** choosing the geometry; no field action is derived. With a stated geometric k/Omega mapping the proposed ME-056 gives a nonzero H² mismatch; retuning the scalar curvature parameter erases it and leaves rotation unidentifiable.
+
+### ROT-006: independent physical source and observable — proposed, UNRUN
+
+Freeze a matter Lagrangian or independently specified stress tensor **before** choosing/tuning cosmological metric coefficients; derive T_ab, then solve Einstein equations and conservation alongside nonzero expansion/vorticity. Check energy conditions, hyperbolicity, stability and a covariant no-rotation limit. Require one new measurable prediction that cannot be absorbed by reassigning curvature or ordinary fluid properties. Preserve all FAIL and UNRESOLVED results; only then proceed to blinded astronomical data.
+
 ### ROT-004: covariant GR consistency — bounded check completed
 
 The [ROT-004 report](../research/ROT-004_COVARIANT_BRIDGE.md) compares the sourced 1+3 Einstein scalar constraint with ME-056 and independently computes the Gödel exact metric with pinned SymPy. The exact metric rotates and does not expand. **PASS:** precise GR control; **FAIL:** the unqualified positive-additive interpretation; **UNRESOLVED:** any new expanding EFMW metric. No astronomical dataset was fitted.

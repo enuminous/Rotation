@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 30 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 33 source records.
 
 Run locally:
 
@@ -56,6 +56,14 @@ The standard 1+3 Einstein scalar constraint includes shear, physical vorticity a
 A reproducible SymPy computation checks the historical Gödel exact solution: real physical rotation and **zero expansion**. This is a counterexample to `rotation implies expansion`, not a cosmological detection or a disproof of all possible EFMW models. The canonical Monolithic 102 equations remain unchanged.
 
 Next research gate **ROT-005**: select a concrete expanding rotating spacetime metric, calculate Einstein tensor and physical vorticity, and test whether ME-056 can actually be derived.
+
+## ROT-005 — Expanding and rotating Einstein geometry
+
+**Published:** [ROT-005 exact-metric report](research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md) · [SymPy tensor reproducibility](research/rot005_ko_sympy.py).
+
+The published Korotkii–Obukhov family supplies a **specific expanding, rotating, stably causal metric**. For a frozen illustrative member, our exact Einstein-tensor calculation verifies expansion and vorticity, zero shear, global causal time, the Einstein 1+3 Gauss and Raychaudhuri identities, and a **strict weak-energy-condition bound** on a defined effective imperfect source. This source is *reconstructed from the metric*, not a new microphysical EFMW action or evidence of the observed universe.
+
+**ME-056 comparison:** Under the explicitly chosen identification of its curvature and rotation with the geometric invariants, ME-056 has an exact nonzero H² mismatch; retuning its curvature parameter removes the mismatch without determining cosmic rotation. **Next (ROT-006):** independently specify a physical matter action, derive its stress tensor and test for a distinguishable prediction. The canonical 102 equations remain unchanged.
 
 ## Critical separation of claims
 

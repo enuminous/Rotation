@@ -22,6 +22,10 @@ Status as of **2026-11-17**. None of the following has been verified closed in t
 | ROT-O15 | Reconcile ME-056 with the full 1+3 Einstein constraint | ROT-004 derives a necessary shear/curvature bridge; no new metric | Source-pinned rotating metric and physical congruence |
 | ROT-O16 | Test an expanding rotating metric in ROT-005 | Gödel proves rotation without expansion; cannot stand in for an expanding cosmology | Einstein tensor, matter conservation, kinematics and null limit |
 
+| ROT-O17 | Derive an independent physical matter action matching the WEC-effective KO source | ROT-005 obtains the needed tensor but does not specify microphysics | ROT-006 stress tensor from pre-registered action |
+| ROT-O18 | Resolve ME-056 parameter degeneracy in an expanding, rotating metric | Exact H² mismatch under natural identification, yet scalar fit by retuned k | Independent curvature/vorticity observable |
+| ROT-O19 | Test real-data viability of a causally admissible rotating cosmology | Mathematical source and WEC do not establish CMB compatibility | Model-dependent likelihood and sealed data controls |
+
 ## First bounded sequence
 
 1. **Definitions:** Freeze five precise meanings of rotation from [WHAT_ROTATION_MEANS](WHAT_ROTATION_MEANS.md). Reject inter-category substitutions.

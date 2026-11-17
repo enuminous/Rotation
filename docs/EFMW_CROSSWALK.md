@@ -52,6 +52,10 @@ In the **chosen nonrelativistic Cartesian specialization**, at positive constant
 
 This is the conventional incompressible Navier–Stokes equation; it does **not** derive the nonrelativistic limit from the original relativistic ME-077. It supplies an exact consistency target for a future formal bridge to [BSA-R](BSAR_BRIDGE.md).
 
+## ROT-005: an expanding GR example that does not identify ME-056 rotation
+
+[ROT-005 reproducible tensor check](../research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md) uses a published rotating, expanding, stably causal Korotkii–Obukhov spacetime. The mathematically exact effective source obeys WEC but was not independently derived from an EFMW physical action. Under k_ME=a² R_rest/6 and Omega_ME²=a² omega², the exact expansion mismatch is 1/(1212a²); under a retuned curvature parameter the same scalar expansion is matched perfectly. Neither observation establishes cosmic rotation or a unique ME-056 derivation.
+
 ## Scope warning
 
 A theorem about the formal **specialization** does not prove the original relativistic statement. A theorem about a deliberately chosen scalar expansion equation does not prove it follows from Einstein's equations. Source-level Lean hygiene and past reported builds should not be presented here as a fresh independent kernel replay.
