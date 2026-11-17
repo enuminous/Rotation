@@ -4,6 +4,14 @@
 
 ## Tracks
 
+### ROT-004: covariant GR consistency — bounded check completed
+
+The [ROT-004 report](../research/ROT-004_COVARIANT_BRIDGE.md) compares the sourced 1+3 Einstein scalar constraint with ME-056 and independently computes the Gödel exact metric with pinned SymPy. The exact metric rotates and does not expand. **PASS:** precise GR control; **FAIL:** the unqualified positive-additive interpretation; **UNRESOLVED:** any new expanding EFMW metric. No astronomical dataset was fitted.
+
+### ROT-005: expanding rotating metric — proposed, not run
+
+Select a single causally admissible Einstein spacetime with expanding, physically rotating matter observers (or a justified metric ansatz). Check Einstein tensor, conservation, actual kinematics, projected rest curvature, dimensions, and the FLRW limit. Compare the **derived** scalar constraint with canonical ME-056. If it differs, preserve the historical original equation and propose a separately versioned correction. Do not fit observational data without a distinct falsifiable signal.
+
 ### ROT-001: mathematics, normalization and degeneracy
 
 **Goal:** Validate the mathematical translation between angular speed ω, Euclidean curl v and the scalar ME-056 parameter.
