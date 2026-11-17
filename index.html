@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotation — Monolithic Evidence Atlas</title>
+<style>
+:root{color-scheme:dark;--bg:#0b121e;--panel:#142138;--line:#354a60;--ink:#ecf4f7;--muted:#aec2d2;--accent:#eed08a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#253451,#0b121e 55%);font:15px/1.55 system-ui,Arial,sans-serif;color:var(--ink)}
+header,main,footer{max-width:1150px;margin:auto;padding:20px}header{padding-top:48px}h1{font-size:clamp(3rem,8vw,5rem);letter-spacing:-.05em;line-height:1.05;margin:5px 0 18px}h2{font-size:1.36rem;margin:0 0 12px}h3{font-size:1rem;margin:8px 0}p{margin:0 0 12px}a{color:#91e6d9;text-underline-offset:3px}header>p{color:#d1dbe6;max-width:760px;font-size:1.12rem}.eyebrow{color:var(--accent);letter-spacing:.15em;font-weight:700;font-size:.73rem}.links{display:flex;flex-wrap:wrap;gap:9px;margin:17px 0}.links a{padding:8px 11px;border:1px solid var(--line);border-radius:7px;text-decoration:none;font-size:.85rem}section{border:1px solid var(--line);background:rgba(20,33,56,.94);border-radius:14px;padding:22px;margin-bottom:18px}.warning{border-left:4px solid var(--accent);padding:12px 16px;background:#263249;border-radius:5px}.muted,small{color:var(--muted);font-size:.85rem}.numbers{display:flex;gap:20px;flex-wrap:wrap;margin:15px 0}.numbers div{padding:12px;background:#22304a;border-radius:8px;min-width:130px}.numbers strong{display:block;font-size:1.7rem;color:var(--accent)}.split{display:grid;grid-template-columns:330px 1fr;gap:20px}canvas{width:100%;border-radius:12px;background:#0b1729;aspect-ratio:1}label{display:block;margin:9px 0 5px;color:var(--muted)}input,select{background:#0d182a;color:var(--ink);border:1px solid var(--line);padding:8px;border-radius:6px;width:100%;font:inherit}.filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:12px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}.card{padding:15px;border:1px solid var(--line);border-radius:10px;background:#111d30}.card p{font-size:.85rem;color:#bdccda}.badge{font-size:.68rem;letter-spacing:.035em;color:#10202f;background:#9be3d5;padding:3px 6px;border-radius:5px}.badge.open{background:#d4acd4}.badge.constraint{background:#eed08a}.sources{display:flex;flex-wrap:wrap;gap:10px;font-size:.75rem}footer{font-size:.82rem;color:var(--muted);padding-bottom:45px}
+@media(max-width:740px){.split{grid-template-columns:1fr}.filters{grid-template-columns:1fr}header{padding-top:25px}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">MONOLITHIC • CROSS-FIELD RESEARCH</div>
+<h1>Rotation<br>is not yet <span style="color:var(--accent)">universal.</span></h1>
+<p>An evidence atlas for scalar phase, geometric algebra, spinors, fluid vorticity, frame dragging, and cosmological rotation. A claim can be beautiful and still require a falsifiable test.</p>
+<nav class="links"><a href="https://github.com/enuminous/Rotation">GitHub repository</a><a href="docs/SCALAR_FIELDS.md">Scalar fields</a><a href="docs/CLIFFORDS.md">The Cliffords</a><a href="docs/COSMOLOGY.md">Cosmic constraints</a><a href="docs/EFMW_CROSSWALK.md">Monolithic 102</a><a href="docs/EXPERIMENTS.md">Experimental program</a></nav>
+</header>
+<main>
+<section>
+<h2>Current scientific standing</h2>
+<p class="warning"><strong>Global cosmic rotation is not an established result.</strong> Laboratory vortices, spinors, black-hole spin and local frame dragging are observed or well tested. Planck's Bianchi VIIh analysis found no evidence for that physical rotating-cosmology model and placed a model-specific bound of (ω/H)₀ &lt; 7.6×10⁻¹⁰ at 95% confidence. Cross-field analogy is not a measurement.</p>
+<div id="numbers" class="numbers"><div><strong>26</strong>Evidence entries</div><div><strong>27</strong>Source records</div></div>
+</section>
+<section>
+<h2>Three different rotations</h2>
+<div class="split">
+<div><canvas id="toy" width="400" height="400" aria-label="Illustrative planar rotation"></canvas></div>
+<div>
+<label for="mode">Field representation</label>
+<select id="mode"><option value="scalar">Complex scalar phase</option><option value="vector">Vector (SO3 fixed axis)</option><option value="spinor">Spinor/Clifford rotor</option></select>
+<label for="theta">Angle / phase value</label><input type="range" min="-6.283" max="12.566" step=".025" value="3.142" id="theta">
+<p id="toytext" aria-live="polite"></p>
+<p class="muted">This is a pure mathematical illustration. A complex scalar's internal phase, a rotating spatial vector, and a spinor's half-angle sign are distinct phenomena.</p>
+</div></div>
+</section>
+<section>
+<h2>Explore the evidence</h2>
+<p class="muted">Filter the source-linked claim register. All records carry an epistemic status and a limitation. No source is treated as endorsing this atlas.</p>
+<div class="filters"><input id="search" type="search" placeholder="Search claims and limitations" aria-label="Search evidence"><select id="status" aria-label="Filter by status"><option value="">All statuses</option></select><select id="domain" aria-label="Filter by field"><option value="">All fields</option></select></div>
+<p id="counter" class="muted">Loading evidence JSON...</p><div id="records" class="cards"></div>
+</section>
+<section>
+<h2>What would change the conclusion?</h2>
+<p>A self-consistent rotating Einstein metric and defined observer congruence; a cross-sector physical mechanism with explicit dimensions; a numerical prediction not already explained by conventional physics; and an independently controlled astronomical test that survives Planck and other constraints.</p>
+<p><a href="docs/OPEN_QUESTIONS.md">Open obligation ledger</a> · <a href="docs/BSAR_BRIDGE.md">Navier–Stokes collaboration bridge</a></p>
+</section>
+</main>
+<footer>Version 0.1.0 • 17 November 2026 • Monolithic LLC. This static explorer reads <a href="data/evidence.json">source data</a>; run a local HTTP server to open it offline. No empirical global-rotation claim is made.</footer>
+<script>
+"use strict";
+const $=id=>document.getElementById(id),state={claims:[],sources:new Map()};
+function draw(){
+const c=$("toy"),ctx=c.getContext("2d"),cx=200,cy=200,t=Number($("theta").value),m=$("mode").value;
+ctx.clearRect(0,0,400,400);ctx.strokeStyle="#40566c";ctx.lineWidth=1.5;
+ctx.beginPath();ctx.arc(cx,cy,135,0,2*Math.PI);ctx.stroke();
+ctx.beginPath();ctx.moveTo(20,cy);ctx.lineTo(380,cy);ctx.moveTo(cx,20);ctx.lineTo(cx,380);ctx.stroke();
+if(m==="scalar"){
+for(let j=0;j<180;j++){let a=2*Math.PI*j/180;ctx.beginPath();ctx.strokeStyle="hsl("+((360*j/180+t*70+3600)%360)+" 75% 65%)";ctx.lineWidth=8;ctx.arc(cx,cy,135,a,a+2*Math.PI/180+.01);ctx.stroke()}
+$("toytext").textContent="ψ=ρ exp(iθ). Uniform θ="+t.toFixed(2)+" rad is not spatial phase winding.";
+}else{
+const half=m==="spinor"?t/2:t, x=cx+135*Math.cos(half),y=cy-135*Math.sin(half);
+ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(x,y);ctx.strokeStyle="#9ce7d5";ctx.lineWidth=5;ctx.stroke();
+ctx.beginPath();ctx.arc(x,y,9,0,2*Math.PI);ctx.fillStyle="#eed08a";ctx.fill();
+$("toytext").textContent=m==="spinor"?"R=cos(θ/2)−Bsin(θ/2); 2π sends R to −R, but vectors transform identically.":"Active vector rotation; a rigid planar velocity has curl=2ω.";
+}}
+function classification(c){if(c.status==="OBSERVED_LOCAL")return "";if(c.status==="MODEL_CONSTRAINT")return " constraint";return ["OPEN","PROPOSED_MODEL","REPORTED_CONTESTED"].includes(c.status)?" open":""}
+function render(){
+const q=$("search").value.toLowerCase(),status=$("status").value,domain=$("domain").value,shown=state.claims.filter(x=>(!status||x.status===status)&&(!domain||x.domain===domain)&&(!q||[x.id,x.claim,x.description,x.limits,x.domain].join(" ").toLowerCase().includes(q)));
+$("counter").textContent=shown.length+" of "+state.claims.length+" claims";
+const root=$("records");root.replaceChildren();
+for(const x of shown){
+const card=document.createElement("article");card.className="card";
+const badge=document.createElement("span");badge.className="badge"+classification(x);badge.textContent=x.status.replaceAll("_"," ");card.append(badge);
+const h=document.createElement("h3");h.textContent=x.claim;card.append(h);
+const d=document.createElement("p");d.textContent=x.description;card.append(d);
+const b=document.createElement("p");b.textContent="Limit: "+x.limits;card.append(b);
+const s=document.createElement("div");s.className="sources";
+for(const id of x.source_ids){const src=state.sources.get(id);if(!src)continue;const a=document.createElement("a");a.textContent=id;a.title=src.title;a.href=src.url;a.target="_blank";a.rel="noopener noreferrer";s.append(a)}
+card.append(s);root.append(card);
+}}
+async function load(){
+try{const [a,b]=await Promise.all([fetch("./data/evidence.json"),fetch("./data/sources.json")]);
+if(!a.ok||!b.ok)throw Error("unable to fetch registry");
+const x=await a.json(),y=await b.json();state.claims=x.evidence;state.sources=new Map(y.sources.map(z=>[z.id,z]));
+for(const v of x.status_vocabulary){const o=document.createElement("option");o.value=v;o.textContent=v.replaceAll("_"," ");$("status").append(o)}
+for(const v of [...new Set(state.claims.map(z=>z.domain))].sort()){const o=document.createElement("option");o.value=v;o.textContent=v;$("domain").append(o)}
+$("numbers").replaceChildren();
+for(const [label,num] of [["Evidence entries",state.claims.length],["Source records",state.sources.size],["Observed local",state.claims.filter(z=>z.status==="OBSERVED_LOCAL").length],["Confirmed cosmic",0]]){
+const d=document.createElement("div"),b=document.createElement("strong");b.textContent=num;d.append(b,label);$("numbers").append(d)}
+render();
+}catch(e){$("counter").textContent="Could not read the evidence registry. Serve this folder using python -m http.server 8000 or enable GitHub Pages.";console.error(e)}
+}
+["mode","theta"].forEach(id=>$(id).addEventListener("input",draw));
+["search","status","domain"].forEach(id=>$(id).addEventListener("input",render));
+draw();load();
+</script>
+</body></html>
