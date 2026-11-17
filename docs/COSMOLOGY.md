@@ -50,6 +50,9 @@ The independently calculated [ROT-005 Korotkii–Obukhov example](../research/RO
 
 The example's source is **defined** from its Einstein tensor, not derived from a matter-field action; its rotation-to-expansion ratio is illustrative, not observational. A geometrically motivated ME-056 parameter identification fails, while another curvature parameter fits the same H²(a) curve exactly. Consequently ME-056 remains nonidentifying from scalar expansion alone.
 
+## ROT-006: source-first matter obstruction (not a cosmic measurement)
+
+The [ROT-006 source audit](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) finds that the exact stress required by the chosen ROT-005 metric cannot arise from a standalone ordinary real scalar, ordinary complex scalar, perfect fluid or pure Maxwell model. This is proved by the invariant eigenvalue multiplicities of their respective stress tensors. More general matter models can remain physically viable; no new cosmological observation follows.
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

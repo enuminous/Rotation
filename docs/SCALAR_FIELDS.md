@@ -48,3 +48,11 @@ Madelung formalization is specialized to flat 1+1 dimensions and explicitly trac
 ## Open test
 
 Construct a **gauge-invariant and observer-invariant** proposed EFMW scalar rotation observable, with a distinct prediction not already implied by conventional complex-field phase dynamics. Compare the predicted signal with a matched conventional scalar model **before** seeing the data. If no distinct prediction exists, this strand remains an explanatory analogy rather than an independently verified new physical mechanism.
+
+## F. ROT-006: what a scalar field cannot source in the fixed rotating metric
+
+[ROT-006](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) tests the *standalone matter stress tensor*, rather than just scalar phase winding. The exact metric of ROT-005 requires a stress tensor with four distinct mixed eigenvalues. A minimally coupled first-derivative real scalar has a rank-one correction to \(L\delta^a_b\) and three repeated eigenvalues; an ordinary complex scalar has rank at most two and at least two repeated eigenvalues. Neither can equal the frozen source alone. This also excludes a perfect fluid and pure Maxwell as single sources by their eigenvalue structure.
+
+If a physical observer velocity \(u_a\) is proportional to \(\partial_a\phi\), its vorticity vanishes by Frobenius. The ROT-005 comoving fluid has nonzero \(u\wedge du\), so that **specific** physical congruence cannot be a one-scalar gradient.
+
+These results do **not** rule out scalar–vector couplings, nonminimal curvature terms, higher-derivative models, other rotating metrics, or genuinely multi-field source actions. They also do not claim all scalar fields intrinsically rotate.

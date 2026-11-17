@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 33 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 36 source records.
 
 Run locally:
 
@@ -55,7 +55,7 @@ The standard 1+3 Einstein scalar constraint includes shear, physical vorticity a
 
 A reproducible SymPy computation checks the historical Gödel exact solution: real physical rotation and **zero expansion**. This is a counterexample to `rotation implies expansion`, not a cosmological detection or a disproof of all possible EFMW models. The canonical Monolithic 102 equations remain unchanged.
 
-Next research gate **ROT-005**: select a concrete expanding rotating spacetime metric, calculate Einstein tensor and physical vorticity, and test whether ME-056 can actually be derived.
+**That ROT-005 gate is now completed as an exact-metric test.** See the following result.
 
 ## ROT-005 — Expanding and rotating Einstein geometry
 
@@ -63,7 +63,15 @@ Next research gate **ROT-005**: select a concrete expanding rotating spacetime m
 
 The published Korotkii–Obukhov family supplies a **specific expanding, rotating, stably causal metric**. For a frozen illustrative member, our exact Einstein-tensor calculation verifies expansion and vorticity, zero shear, global causal time, the Einstein 1+3 Gauss and Raychaudhuri identities, and a **strict weak-energy-condition bound** on a defined effective imperfect source. This source is *reconstructed from the metric*, not a new microphysical EFMW action or evidence of the observed universe.
 
-**ME-056 comparison:** Under the explicitly chosen identification of its curvature and rotation with the geometric invariants, ME-056 has an exact nonzero H² mismatch; retuning its curvature parameter removes the mismatch without determining cosmic rotation. **Next (ROT-006):** independently specify a physical matter action, derive its stress tensor and test for a distinguishable prediction. The canonical 102 equations remain unchanged.
+**ME-056 comparison:** Under the explicitly chosen identification of its curvature and rotation with the geometric invariants, ME-056 has an exact nonzero H² mismatch; retuning its curvature parameter removes the mismatch without determining cosmic rotation. **ROT-006 now rejects selected minimally coupled matter models for this exact metric; see below.** The canonical 102 equations remain unchanged.
+
+## ROT-006 — Scalar and source-first matter audit
+
+**Published:** [ROT-006 research report](research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) · [SymPy source-admissibility script](research/rot006_scalar_source_test.py).
+
+For the same fixed ROT-005 geometry, the exact mixed stress-energy tensor has **four distinct eigenvalues**. Ordinary perfect fluids, a standalone first-derivative real scalar, a standalone ordinary complex scalar (two real components), and pure Maxwell matter require repeated eigenvalues. They **cannot individually source this one exact rotating metric**, even after changing observer frame. The comoving rotating fluid's Frobenius 3-form is also nonzero and cannot be the normalized gradient of one scalar.
+
+**Scope:** This is a constrained mathematical exclusion for a **particular metric and matter-action family**. It does not exclude scalar–vector, nonminimal, higher-derivative or multi-field theories, other rotating spacetimes, or a future EFMW theory. **ROT-007 next:** select a specific coupled matter action and try to solve *all* Einstein and field equations without defining the stress tensor after the fact.
 
 ## Critical separation of claims
 
