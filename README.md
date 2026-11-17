@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 38 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 39 source records.
 
 Run locally:
 
@@ -79,7 +79,15 @@ For the same fixed ROT-005 geometry, the exact mixed stress-energy tensor has **
 
 The previously frozen action used a real homogeneous massless scalar `phi(t)`, a standard Maxwell potential, `V=0` and `Lambda=0`. The exact fixed KO geometry requires `G^a_a = -797/(808a²) < 0`, but the candidate source gives `T^a_a = (100/101)*phi_dot² >= 0`. Maxwell is traceless in four dimensions. **FAIL:** no real homogeneous scalar and no Maxwell amplitudes in that action can satisfy even the necessary Einstein trace. The analysis stops at this exact contradiction rather than claiming to solve the remaining field equations.
 
-**Scope:** This does **not** reject the full scalar–Maxwell family with spatial gradients, nonzero potentials, or other couplings. It does **not** identify rotation in the observed cosmos. **ROT-008** is a *separate, unrun* proposed test that changes only the scalar spatial ansatz while holding the source action fixed.
+**Scope:** This does **not** reject the full scalar–Maxwell family with spatial gradients, nonzero potentials, or other couplings. It does **not** identify rotation in the observed cosmos. **ROT-008** has now been run; its frozen real linear scalar fails both necessary Einstein and scalar constraints, and the finite recursive search terminated. See the report below.
+
+## ROT-008 — Predictive recursive search terminated at a no-go
+
+**Published:** [full ROT-008 report](research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) · [successful CI stdout ledger](research/ROT-008_TERMINAL_LEDGER.json) · [recursive SymPy proof search](research/rot008_recursive_search.py) · [pre-execution predictions](research/ROT-008_PREDICTIONS_AND_STOP.md).
+
+With the fixed massless scalar–Maxwell action and a real linear scalar \(\phi(t,x)=ct+dx\), the necessary scalar wave equation forces \(c=d=0\), while the Einstein tensor trace requires a nonzero spatial gradient. The computation explores **two independent proof orders, six nodes, two exact terminal contradictions**, then stops; the mathematical model **FAILS** under those assumptions.
+
+**Crucial boundary:** A broader profile \(\phi(t,x)=\frac{101d}{100}\ln a(t)+dx\) with \(d^2=39850/30199\) can satisfy **only the wave and Einstein trace requirements**. It has **not** passed the other Einstein/Maxwell equations and is **not** a sourced rotating cosmology. A separately frozen ROT-009 protocol would be needed. No inference of observed cosmic rotation follows.
 
 ## Critical separation of claims
 

@@ -64,6 +64,9 @@ This limits a *minimal scalar-only realization* of the proposed cosmic effect. I
 ## ROT-007: the minimal scalar–Maxwell trace mismatch
 
 The [published ROT-007 test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) holds fixed a canonical real scalar `phi(t)`, a standard Maxwell field with potential of the declared form, no scalar potential and `Lambda=0`. The exact KO metric has `R=797/(808a²)>0`, while the matter field equations require `R=(grad phi)²=-100/101*phi_dot²<=0`. **FAIL for the frozen source/ansatz**, not a disproof of EFMW, scalar phase dynamics, other metrics or physically distinct scalar–vector couplings. The canonical Monolithic 102 equations remain unchanged.
+## ROT-008 — exact recursive search, constrained to the frozen real linear scalar
+
+The [ROT-008 experiment](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) provides a source-first wave/trace compatibility no-go on the existing KO metric for \(\phi=ct+dx\), under the unchanged real massless scalar and Maxwell action. Two deterministic proof trees terminate in exact contradiction; the other field-equation components need not be solved after a necessary constraint fails. This does not rewrite ME-055/056, rule out scalar phase winding, exclude all EFMW couplings, or demonstrate cosmic rotation. A broader time-logarithmic spatial-scalar profile is only a candidate for a separately bounded ROT-009 full source check.
 ## Scope warning
 
 A theorem about the formal **specialization** does not prove the original relativistic statement. A theorem about a deliberately chosen scalar expansion equation does not prove it follows from Einstein's equations. Source-level Lean hygiene and past reported builds should not be presented here as a fresh independent kernel replay.

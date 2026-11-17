@@ -60,3 +60,9 @@ These results do **not** rule out scalar–vector couplings, nonminimal curvatur
 ## G. ROT-007: combined scalar + Maxwell also fails under the frozen homogeneous ansatz
 
 [ROT-007](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) tests the complete **trace** required by the Einstein–scalar–Maxwell action with `V=Lambda=0` and real `phi(t)`. Even allowing arbitrary electromagnetic `E(t),B(t)`, the Maxwell stress trace vanishes; the scalar trace is `(100/101)*phi_dot²>=0`. The fixed rotating/expanding metric needs `G^a_a=-797/(808a²)<0`. This yields a contradiction without choosing field amplitudes. A spatial real gradient, an explicitly declared potential or a richer action may alter the necessary trace equation, so **the negative result is intentionally not universal**.
+
+## H. ROT-008 — linear spatial scalar also fails, but the wave and trace gates do not ban every profile
+
+[ROT-008](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) freezes the massless action and scalar \(\phi=ct+dx\). The scalar wave equation forces \(c=d=0\), whereas the Einstein trace cannot hold for those values. This proof is exact and the two recursive proof orders terminate at contradiction.
+
+**Boundary control:** changing the scalar to \(\phi(t,x)=(101d/100)\ln a(t)+dx\) with \(d^2=39850/30199\) satisfies these *two necessary equations*, but no other Einstein or Maxwell equation has been proven for the enlarged class. Thus the linear ansatz no-go does not establish a scalar-field no-go in general.
