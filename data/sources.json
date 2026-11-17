@@ -191,6 +191,27 @@
       "year": "2025",
       "url": "https://link.springer.com/article/10.1140/epjs/s11734-025-01520-3",
       "type": "theoretical_model"
+    },
+    {
+      "id": "GR-COV-2022",
+      "title": "Danehkar, Covariant Evolution of Gravitoelectromagnetism, Eq. 46",
+      "year": "2022",
+      "url": "https://doi.org/10.3390/universe8060318",
+      "type": "peer_reviewed_theoretical_review"
+    },
+    {
+      "id": "GODEL-GR-2026",
+      "title": "Zhao, Modesto and Bambi, Acausal exact vacuum solutions in nonlocal gravity, Sec. 2 classical Gödel metric",
+      "year": "2026",
+      "url": "https://doi.org/10.1140/epjc/s10052-026-15963-y",
+      "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "ROT004-REPORT",
+      "title": "Monolithic ROT-004 covariant GR bridge and Gödel exact-metric control",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-004_COVARIANT_BRIDGE.md",
+      "type": "independent_source_level_research"
     }
   ]
 }

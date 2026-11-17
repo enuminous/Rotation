@@ -342,6 +342,46 @@
         "PLANCK15"
       ],
       "limits": "Analogies between spin, phase, polarization and vorticity do not establish a common physical origin."
+    },
+    {
+      "id": "ROT-C06",
+      "domain": "cosmology",
+      "claim": "Exact 1+3 Gauss scalar includes shear, projected rest curvature, and a negative bare vorticity-square contribution",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "3H² = kappa*rho+Lambda+sigma²−omega²−R_rest/2, with definitions and signature fixed; it does not imply a standalone positive Omega_U²/a² correction.",
+      "source_ids": [
+        "GR-COV-2022",
+        "ROT004-REPORT"
+      ],
+      "limits": "Projected rest curvature is not a global hypersurface Ricci scalar for rotating congruences. Different assumptions or metric-dependent curvature can change the net correction."
+    },
+    {
+      "id": "ROT-C07",
+      "domain": "cosmology",
+      "claim": "Gödel exact Einstein dust spacetime rotates without expanding",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "against_universal_literality",
+      "description": "Independent pinned SymPy verification yields the historical Gödel Einstein tensor, theta=0, shear=0, omega²=m²/2>0, and negative Lambda.",
+      "source_ids": [
+        "GODEL-GR-2026",
+        "ROT004-REPORT"
+      ],
+      "limits": "The Gödel spacetime has closed timelike curves and is not the observed universe. This refutes rotation⇒expansion generally, not every restricted EFMW cosmological model."
+    },
+    {
+      "id": "ROT-E05",
+      "domain": "EFMW",
+      "claim": "ME-056 requires an additional shear/curvature compatibility condition to match covariant Einstein cosmology",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Necessary condition: 3 Omega_U²/a² = sigma²−omega²−(R_rest−6k/a²)/2 when rho, Lambda and measured H coincide.",
+      "source_ids": [
+        "EFMW-ME056",
+        "GR-COV-2022",
+        "ROT004-REPORT"
+      ],
+      "limits": "A scalar algebraic identity does not supply a spacetime metric, matter conservation, geometric definitions of a/k/Omega_U, or a valid Einstein solution."
     }
   ]
 }
