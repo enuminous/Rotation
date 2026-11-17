@@ -382,6 +382,72 @@
         "ROT004-REPORT"
       ],
       "limits": "A scalar algebraic identity does not supply a spacetime metric, matter conservation, geometric definitions of a/k/Omega_U, or a valid Einstein solution."
+    },
+    {
+      "id": "ROT-C08",
+      "domain": "cosmology",
+      "claim": "A published Korotkii–Obukhov metric admits simultaneous expansion, covariant vorticity and stable causality",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "For a chosen Bianchi-III parameter member, a full exact tensor computation shows H=1/(2a)>0, omega²=1/(1616a²)>0, zero shear, and globally timelike dt on t>-2.",
+      "source_ids": [
+        "KO-JETP-1991",
+        "KO-REVIEW-2020",
+        "ROT005-REPORT"
+      ],
+      "limits": "Mathematically possible with an effective imperfect matter source; not an observational detection or a novel metric. The example is not geodesically complete."
+    },
+    {
+      "id": "ROT-C09",
+      "domain": "cosmology",
+      "claim": "A specific expanding/rotating geometry has an exact conserved effective source satisfying the weak energy condition",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "Independent symbolic Einstein tensor and covariant conservation checks; a sufficient observer-independent WEC lower bound (400−20√101)/(1616a²)>0 for every causal direction.",
+      "source_ids": [
+        "KO-JETP-1991",
+        "ROT005-REPORT"
+      ],
+      "limits": "Matter is defined a posteriori by G_ab; no independent microscopic Lagrangian, dynamical stability, or observational validity is established."
+    },
+    {
+      "id": "ROT-E06",
+      "domain": "EFMW",
+      "claim": "In an actual expanding/rotating GR metric, a direct ME-056 curvature/vorticity identification overpredicts H²",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "against_unique_detection",
+      "description": "Set k_ME=a² R_rest/6 and Omega_ME²=a² omega_physical² in the exact KO test: H²_ME056−H²_GR=1/(1212a²)>0.",
+      "source_ids": [
+        "EFMW-ME056",
+        "ROT005-REPORT"
+      ],
+      "limits": "This FAIL applies to an expressly chosen natural mapping. Canonical ME-056 does not supply covariant definitions of the two quantities, so it is not a universal no-go result."
+    },
+    {
+      "id": "ROT-E07",
+      "domain": "EFMW",
+      "claim": "Changing the ME-056 curvature parameter reproduces the same rotating GR expansion curve without identifying its spin",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "against_unique_detection",
+      "description": "With Omega_ME²=1/1616, the retuned scalar k_ME=−67/808 gives H²_ME056=H²_GR identically for the selected example.",
+      "source_ids": [
+        "EFMW-ME056",
+        "ROT005-REPORT"
+      ],
+      "limits": "Matching a scalar expansion history by parameter retuning is not a derivation from Einstein's equations or evidence of physical universal rotation."
+    },
+    {
+      "id": "ROT-E08",
+      "domain": "EFMW",
+      "claim": "A predictive EFMW matter action reproducing an expanding/rotating Einstein solution remains unspecified",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "ROT-006 calls for a prior-specified stress tensor or field action, full Einstein and conservation checks, stability, and a distinctive observable that curvature retuning cannot absorb.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "EFMW-ME056"
+      ],
+      "limits": "The effective source T=G is not a microphysical derivation. No CMB or other held-out astronomical dataset has been fitted."
     }
   ]
 }

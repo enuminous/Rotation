@@ -212,6 +212,27 @@
       "year": "2026",
       "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-004_COVARIANT_BRIDGE.md",
       "type": "independent_source_level_research"
+    },
+    {
+      "id": "KO-JETP-1991",
+      "title": "Korotkii and Obukhov, Kinematic analysis of cosmological models with rotation, Sov. Phys. JETP 72(1), Eqs. (4.1)-(4.2)",
+      "year": "1991",
+      "url": "https://jetp.ras.ru/cgi-bin/dn/e_072_01_0011.pdf",
+      "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "KO-REVIEW-2020",
+      "title": "Korotky, Masar and Obukhov, In the Quest for Cosmic Rotation, Universe 6(1):14, metric Eq. (7)",
+      "year": "2020",
+      "url": "https://doi.org/10.3390/universe6010014",
+      "type": "peer_reviewed_theoretical_review"
+    },
+    {
+      "id": "ROT005-REPORT",
+      "title": "Monolithic ROT-005 reproducible exact rotating/expanding Einstein metric and effective source check",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md",
+      "type": "independent_source_level_research"
     }
   ]
 }
