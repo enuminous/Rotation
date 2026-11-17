@@ -153,7 +153,7 @@ def report() -> dict[str, object]:
             "bridge_residual": str(bridge_residual(gr_algebraic, me_algebraic))
         },
         "Godel_exact_GR_control_constants": godel_kinematic_control(),
-        "warning": "No new rotating cosmological metric or physical ME-056 derivation is proven."
+        "warning": "A new rotating cosmological metric or physical ME-056 derivation is not proven."
     }
 
 
