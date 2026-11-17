@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 27 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 30 source records.
 
 Run locally:
 
@@ -46,6 +46,16 @@ python -m http.server 8000
 To host it, enable GitHub Pages manually (deploy from `main` / root). The page uses relative asset/data paths, so no CDN is required. **It is not a cosmological data fit, a Navier–Stokes solver, or evidence of universal rotation.**
 
 The [browser smoke test](tests/smoke_rotation_lab.cjs) exercises six modes, controls, CSV export and evidence filtering with a simulated DOM/canvas. GitHub Actions additionally checks JavaScript syntax and Python unit tests. A green CI run does **not** certify pixel-perfect browser rendering or physical conclusions.
+
+## ROT-004 — Covariant GR bridge: completed bounded audit
+
+[Full ROT-004 report](research/ROT-004_COVARIANT_BRIDGE.md) · [Exact Gödel metric control](research/ROT-004_GODEL_CONTROL.md)
+
+The standard 1+3 Einstein scalar constraint includes shear, physical vorticity and projected rest-space curvature. An independently positive universal `Omega_U^2/a^2` term cannot be inferred from it without extra assumptions.
+
+A reproducible SymPy computation checks the historical Gödel exact solution: real physical rotation and **zero expansion**. This is a counterexample to `rotation implies expansion`, not a cosmological detection or a disproof of all possible EFMW models. The canonical Monolithic 102 equations remain unchanged.
+
+Next research gate **ROT-005**: select a concrete expanding rotating spacetime metric, calculate Einstein tensor and physical vorticity, and test whether ME-056 can actually be derived.
 
 ## Critical separation of claims
 
