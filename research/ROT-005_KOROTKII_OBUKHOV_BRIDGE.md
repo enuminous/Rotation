@@ -16,7 +16,7 @@
 - [ROT-004](ROT-004_COVARIANT_BRIDGE.md), our preceding 1+3 Einstein constraint and Gödel negative control.
 - [Canonical ME-055](https://github.com/enuminous/Monolithic_102_EFMW/blob/main/055.md) and [ME-056](https://github.com/enuminous/Monolithic_102_EFMW/blob/main/056.md), **preserved unchanged**.
 
-The original sources use `(+---)` metric signature; our script uses `(-+++)`. We also use `c=1`, `8πG=1`, and `Λ=0` for a deliberately normalized mathematical model. The **Korotkii–Obukhov coefficient `k_KO=1` is NOT the Friedmann/ME-056 curvature parameter `k_ME`**.
+The original sources use `(+---)` metric signature; our script uses `(-+++)` **and reverses the coordinate orientation `y→−y`**, which changes the sign of the mixed `dt dy` term while leaving all scalar invariants unchanged. We also use `c=1`, `8πG=1`, and `Λ=0` for a deliberately normalized mathematical model. The **Korotkii–Obukhov coefficient `k_KO=1` is NOT the Friedmann/ME-056 curvature parameter `k_ME`**.
 
 ## 2. An explicitly testable geometry
 
