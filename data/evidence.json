@@ -448,6 +448,71 @@
         "EFMW-ME056"
       ],
       "limits": "The effective source T=G is not a microphysical derivation. No CMB or other held-out astronomical dataset has been fitted."
+    },
+    {
+      "id": "ROT-C10",
+      "domain": "cosmology",
+      "claim": "The fixed ROT-005 Einstein source has four distinct mixed stress-energy eigenvalues",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "Exact charpoly of 1616 a² T^a_b is (z−3)(z³+1597z²+798403z+127206399), with gcd(p,p′)=1 for t>−2.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT006-REPORT"
+      ],
+      "limits": "Coordinate-invariant algebraic property of this one metric's reconstructed effective stress, not a universal matter theorem."
+    },
+    {
+      "id": "ROT-C11",
+      "domain": "scalar",
+      "claim": "Neither one canonical real scalar nor two ordinary first-derivative scalars can be the sole stress-energy source of the fixed ROT-005 metric",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Minimally coupled scalar first-derivative stress differs from L times identity by rank at most N, so N=1 or N=2 requires at least 3 or 2 repeated mixed eigenvalues respectively; KO source has four simple eigenvalues.",
+      "source_ids": [
+        "ROT006-REPORT",
+        "KESSENCE-SOURCE-2025"
+      ],
+      "limits": "Applies to specified minimally coupled first-derivative scalar actions only, not all scalar-tensor, higher-derivative, vector-coupled or multi-field EFMW models."
+    },
+    {
+      "id": "ROT-C12",
+      "domain": "scalar",
+      "claim": "A fluid velocity proportional to the timelike gradient of a single scalar field cannot have vorticity",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "counterexample",
+      "description": "Frobenius: (alpha dphi) wedge d(alpha dphi)=0, while KO comoving rotating observer has nonzero (t,x,y) component a exp(x/2)/20.",
+      "source_ids": [
+        "FARAONI-SCALAR-FROBENIUS-2023",
+        "ROT006-REPORT"
+      ],
+      "limits": "The defined scalar-gradient observer is irrotational; scalar fields may still coexist with rotating matter or source geometries via richer interactions."
+    },
+    {
+      "id": "ROT-C13",
+      "domain": "cosmology",
+      "claim": "Neither an arbitrarily tilted perfect fluid nor a pure standard Maxwell field alone can source this specific KO geometry",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "A perfect-fluid mixed tensor has three repeated eigenvalues; ordinary four-dimensional Maxwell stress obeys T²=cI and has repeated mixed eigenvalues. ROT-005 requires four distinct values.",
+      "source_ids": [
+        "ROT006-REPORT"
+      ],
+      "limits": "Imperfect fluids, Maxwell plus other fields, and independent additional sources are not excluded. No new physical material source is constructed."
+    },
+    {
+      "id": "ROT-E09",
+      "domain": "EFMW",
+      "claim": "The ROT-006 scalar-matter test eliminates simple scalar-only sources for the selected expanding and rotating GR metric, leaving coupled matter open",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "ROT-007 requires a predeclared scalar–vector or multiplet action, independent variation to T_ab and field equations, metric consistency, energy/stability tests and a nondegenerate observational prediction.",
+      "source_ids": [
+        "ROT006-REPORT",
+        "EFMW-ME055",
+        "EFMW-ME056"
+      ],
+      "limits": "A failure of these limited source classes for one chosen geometry is not a disproof of all scalar approaches or a claim of observed universal rotation."
     }
   ]
 }
