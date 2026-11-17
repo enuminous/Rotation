@@ -52,3 +52,5 @@ jobs:
         run: python research/rot006_scalar_source_test.py
       - name: ROT-007 exact Einstein-scalar-Maxwell trace obstruction
         run: python research/rot007_einstein_scalar_maxwell.py
+      - name: ROT-008 recursively prune fixed scalar branches to termination
+        run: python research/rot008_recursive_search.py
