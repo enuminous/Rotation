@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "For the rotation atlas, cite this Git repository, the exact commit, and any original source records used."
+title: "Rotation: Cross-Field Evidence Atlas"
+type: software
+authors:
+  - family-names: Wright
+    given-names: Matthew Chenoweth
+date-released: 2026-11-17
+version: 0.1.0
+repository-code: https://github.com/enuminous/Rotation
+license: MIT
+keywords:
+  - rotation
+  - vorticity
+  - cosmology
+  - scalar fields
+  - formal methods

@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0.0",
+  "compiled": "2026-11-17",
+  "description": "Selected primary observational and original-source documents; links verified during preparation; not an exhaustive bibliography.",
+  "sources": [
+    {
+      "id": "EFMW-ME016",
+      "title": "Monolithic 102 ME-016: complex scalar polar decomposition",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/016.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME018",
+      "title": "Monolithic 102 ME-018: phase current",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/018.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME055",
+      "title": "Monolithic 102 ME-055: residual universal rotation vector",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/055.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME056",
+      "title": "Monolithic 102 ME-056: proposed rotating-universe scalar relation",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/056.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME077",
+      "title": "Monolithic 102 ME-077: thixotropic fluid momentum",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/077.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME078",
+      "title": "Monolithic 102 ME-078: time-dependent viscosity",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/078.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME080",
+      "title": "Monolithic 102 ME-080: continuity",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/080.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME081",
+      "title": "Monolithic 102 ME-081: stress tensor",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/081.md",
+      "type": "source_model"
+    },
+    {
+      "id": "EFMW-ME082",
+      "title": "Monolithic 102 ME-082: viscosity relaxation",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic_102_EFMW/blob/main/082.md",
+      "type": "source_model"
+    },
+    {
+      "id": "LEAN-ROT",
+      "title": "Wright, Monolithic 102: RotationKinematics.lean",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/RotationKinematics.lean",
+      "type": "formal_source"
+    },
+    {
+      "id": "LEAN-COS",
+      "title": "Wright, Monolithic 102: RotatingCosmology.lean",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/RotatingCosmology.lean",
+      "type": "formal_source"
+    },
+    {
+      "id": "LEAN-VORT",
+      "title": "Wright, Monolithic 102: Vorticity.lean",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/Vorticity.lean",
+      "type": "formal_source"
+    },
+    {
+      "id": "LEAN-FLUID",
+      "title": "Wright, Monolithic 102: Fluids.lean",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/Fluids.lean",
+      "type": "formal_source"
+    },
+    {
+      "id": "LEAN-MAD",
+      "title": "Wright, Monolithic 102: Madelung.lean",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/Madelung.lean",
+      "type": "formal_source"
+    },
+    {
+      "id": "LEAN-STATUS",
+      "title": "Wright, Monolithic 102: Rotation cosmology status audit",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/main/analysis/ROTATION_COSMOLOGY.md",
+      "type": "research_notes"
+    },
+    {
+      "id": "BSAR-STEP7",
+      "title": "Duguay, BSA-R Step 7 vorticity-direction collaborator specification",
+      "year": "2026",
+      "url": "https://github.com/VivienSweetbrier/bsa-r/blob/main/navier_stokes/ROUND6_COLLABORATOR_SPEC.md",
+      "type": "research_notes"
+    },
+    {
+      "id": "PLANCK15",
+      "title": "Planck Collaboration, 2015 results XVIII: Background geometry and topology",
+      "year": "2016",
+      "url": "https://doi.org/10.1051/0004-6361/201525829",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "GPB11",
+      "title": "Everitt et al., Gravity Probe B: Final Results",
+      "year": "2011",
+      "url": "https://doi.org/10.1103/PhysRevLett.106.221101",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "BEC99",
+      "title": "Matthews et al., Vortices in a Bose-Einstein Condensate",
+      "year": "1999",
+      "url": "https://doi.org/10.1103/PhysRevLett.83.2498",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "BEC00",
+      "title": "Madison et al., Vortex Formation in a Stirred Bose-Einstein Condensate",
+      "year": "2000",
+      "url": "https://doi.org/10.1103/PhysRevLett.84.806",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "SPINOR75",
+      "title": "Rauch et al., Verification of coherent spinor rotation of fermions",
+      "year": "1975",
+      "url": "https://doi.org/10.1016/0375-9601(75)90798-7",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "LIGO15",
+      "title": "LIGO/Virgo, GW150914 science summary and data release",
+      "year": "2015",
+      "url": "https://gwosc.org/events/GW150914/",
+      "type": "observatory_release"
+    },
+    {
+      "id": "LIGO-SPIN",
+      "title": "LIGO Scientific Collaboration, GW150914 astrophysical analysis",
+      "year": "2016",
+      "url": "https://ligo.org/science-summaries/GW150914/",
+      "type": "observatory_analysis"
+    },
+    {
+      "id": "EHT21",
+      "title": "EHT Collaboration, M87 magnetic field structure near event horizon",
+      "year": "2021",
+      "url": "https://doi.org/10.3847/2041-8213/abe4de",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "JADES25",
+      "title": "Shamir, The distribution of galaxy rotation in JWST JADES",
+      "year": "2025",
+      "url": "https://doi.org/10.1093/mnras/staf292",
+      "type": "peer_reviewed_controversial"
+    },
+    {
+      "id": "BIRE25",
+      "title": "Lonappan, Keating and Arnold: anisotropic cosmic birefringence constraints",
+      "year": "2025",
+      "url": "https://doi.org/10.1103/yxmh-rh9z",
+      "type": "peer_reviewed_observation"
+    },
+    {
+      "id": "NEWTON25",
+      "title": "Simulating rotating Newtonian universes",
+      "year": "2025",
+      "url": "https://link.springer.com/article/10.1140/epjs/s11734-025-01520-3",
+      "type": "theoretical_model"
+    }
+  ]
+}

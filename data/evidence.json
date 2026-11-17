@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0.0",
+  "compiled": "2026-11-17",
+  "definition_of_universal": "A single objectively specified nonzero covariant cosmic vorticity or cross-sector field generator with identifiable, independently testable predictions; not mere ubiquity of local rotational structures.",
+  "status_vocabulary": [
+    "ESTABLISHED_MATH",
+    "FORMALIZED_CONDITIONAL",
+    "CONTROL_NULL",
+    "OBSERVED_LOCAL",
+    "MODEL_CONSTRAINT",
+    "REPORTED_CONTESTED",
+    "PROPOSED_MODEL",
+    "OPEN"
+  ],
+  "evidence": [
+    {
+      "id": "ROT-M01",
+      "domain": "mathematics",
+      "claim": "SO(2) plane rotation and norm preservation",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "Rigid rotations preserve Euclidean norm; a mathematical theorem, not a measurement of the cosmos.",
+      "source_ids": [
+        "LEAN-ROT"
+      ],
+      "limits": "Requires a specified action on a plane and an angle, no universal parameter."
+    },
+    {
+      "id": "ROT-M02",
+      "domain": "mathematics",
+      "claim": "In 3-D the fixed-axis generator squares to minus transverse projection, not minus 3-D identity",
+      "status": "FORMALIZED_CONDITIONAL",
+      "relevance_to_global_rotation": "neutral",
+      "description": "The representation has a fixed axis, and this is why naive 2-D rotor generalization needs a domain.",
+      "source_ids": [
+        "LEAN-ROT"
+      ],
+      "limits": "No assertion that the physical universe selects an axis."
+    },
+    {
+      "id": "ROT-M03",
+      "domain": "mathematics",
+      "claim": "Curl of a C² real scalar gradient vanishes",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "counterexample",
+      "description": "A smoothly differentiable single-valued real scalar does not have intrinsic ordinary vorticity.",
+      "source_ids": [
+        "LEAN-VORT"
+      ],
+      "limits": "Multi-valued phases and zeros require punctured-domain treatment."
+    },
+    {
+      "id": "ROT-M04",
+      "domain": "mathematics",
+      "claim": "Rigid rotation field has curl equal to twice angular velocity",
+      "status": "FORMALIZED_CONDITIONAL",
+      "relevance_to_global_rotation": "neutral",
+      "description": "v=(-ωy,ωx,0) yields curl v=(0,0,2ω).",
+      "source_ids": [
+        "LEAN-VORT",
+        "LEAN-ROT"
+      ],
+      "limits": "Applies to the explicitly defined rigid flow."
+    },
+    {
+      "id": "ROT-M05",
+      "domain": "mathematics",
+      "claim": "A real scalar can be constant in space and time",
+      "status": "CONTROL_NULL",
+      "relevance_to_global_rotation": "against_universal_literality",
+      "description": "φ=C is nonrotating; disproves the literal claim that every scalar has nonzero gradient vorticity.",
+      "source_ids": [
+        "LEAN-VORT"
+      ],
+      "limits": "Does not rule out hidden coupled fields under an additional model."
+    },
+    {
+      "id": "ROT-S01",
+      "domain": "complex scalar",
+      "claim": "Complex phase ψ=ρ exp(iθ) admits integer winding around nodal defects",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "local_only",
+      "description": "If ψ is nonzero on a closed loop, its continuous phase change is 2πn, n integer.",
+      "source_ids": [
+        "EFMW-ME016",
+        "LEAN-MAD"
+      ],
+      "limits": "Topological winding is not automatically a mechanical angular velocity; gauge-invariant circulation needs the connection."
+    },
+    {
+      "id": "ROT-S02",
+      "domain": "complex scalar",
+      "claim": "Madelung phase current is conventional hydrodynamic structure",
+      "status": "FORMALIZED_CONDITIONAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Monolithic 102 has one-space/one-time mathematical specializations of phase current and conserved current.",
+      "source_ids": [
+        "EFMW-ME018",
+        "LEAN-MAD"
+      ],
+      "limits": "The full relativistic/curved extension and observed universal phase are not shown."
+    },
+    {
+      "id": "ROT-S03",
+      "domain": "complex scalar",
+      "claim": "Zero amplitude invalidates a global smooth phase angle",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "counterexample",
+      "description": "At ψ=0 the phase is undefined, so global phase coordinates need patching/topological data.",
+      "source_ids": [
+        "LEAN-MAD",
+        "BEC99"
+      ],
+      "limits": "Finite winding can exist around punctures but cannot be promoted to global smooth θ."
+    },
+    {
+      "id": "ROT-F01",
+      "domain": "ordinary fluids",
+      "claim": "Vorticity and circulation characterize local rotational flow",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Curl u, circulation and stretching are defined for differentiable flows; each flow may or may not be rotational.",
+      "source_ids": [
+        "LEAN-VORT",
+        "LEAN-FLUID"
+      ],
+      "limits": "Irrotational flows are permitted, including pure-gradient potential flows."
+    },
+    {
+      "id": "ROT-F02",
+      "domain": "quantum fluids",
+      "claim": "Quantized vortices observed in dilute-gas Bose-Einstein condensates",
+      "status": "OBSERVED_LOCAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Interference phase maps and stirred-condensate experiments demonstrate vortices and angular momentum.",
+      "source_ids": [
+        "BEC99",
+        "BEC00"
+      ],
+      "limits": "Prepared laboratory systems; not evidence of rotating spacetime everywhere."
+    },
+    {
+      "id": "ROT-F03",
+      "domain": "fluid constitutive",
+      "claim": "ME-077–082 introduce thixotropic/variable-viscosity constitutive relations",
+      "status": "PROPOSED_MODEL",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Model includes time-dependent η and continuity; special cases reduce to ordinary incompressible NS under extra assumptions.",
+      "source_ids": [
+        "EFMW-ME077",
+        "EFMW-ME078",
+        "EFMW-ME080",
+        "EFMW-ME081",
+        "EFMW-ME082",
+        "LEAN-FLUID"
+      ],
+      "limits": "ME-078 has η(0)=0; does not prove uniform positive viscosity or general NS regularity."
+    },
+    {
+      "id": "ROT-F04",
+      "domain": "vorticity direction",
+      "claim": "BSA-R Step 7 explicitly leaves cone-integrability estimate open",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Conditional direction-coherence machinery does not establish an a priori Kξ estimate for every smooth 3-D flow.",
+      "source_ids": [
+        "BSAR-STEP7"
+      ],
+      "limits": "No resolved Millennium problem is inferred."
+    },
+    {
+      "id": "ROT-Q01",
+      "domain": "spinor",
+      "claim": "Neutron interferometry supports the spin-1/2 4π rotational behavior",
+      "status": "OBSERVED_LOCAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Observed coherent sign change is consistent with spinor double-cover geometry.",
+      "source_ids": [
+        "SPINOR75"
+      ],
+      "limits": "Spinor representation is not classical rotation of the entire universe."
+    },
+    {
+      "id": "ROT-G01",
+      "domain": "gravity local",
+      "claim": "Earth's frame dragging measured by Gravity Probe B",
+      "status": "OBSERVED_LOCAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Published geodetic and frame-dragging gyroscope results agree with GR within uncertainty.",
+      "source_ids": [
+        "GPB11"
+      ],
+      "limits": "Earth's angular momentum generates a local dragging effect; does not identify cosmic bulk rotation."
+    },
+    {
+      "id": "ROT-G02",
+      "domain": "black hole",
+      "claim": "LIGO GW150914 observations infer a spinning final merger remnant",
+      "status": "OBSERVED_LOCAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Binary merger gravitational-wave event and modeling constrain a rotating astrophysical object.",
+      "source_ids": [
+        "LIGO15",
+        "LIGO-SPIN"
+      ],
+      "limits": "Does not imply primordial common cosmic spin; component spins were not well resolved in this event."
+    },
+    {
+      "id": "ROT-EM01",
+      "domain": "electromagnetic polarization",
+      "claim": "Faraday/polarization rotation inferred near M87*",
+      "status": "OBSERVED_LOCAL",
+      "relevance_to_global_rotation": "local_only",
+      "description": "Polarized emission and Faraday effects probe magnetic fields and plasma near black hole.",
+      "source_ids": [
+        "EHT21"
+      ],
+      "limits": "Polarization-angle rotation is not evidence of metric vorticity on Hubble scales."
+    },
+    {
+      "id": "ROT-C01",
+      "domain": "cosmology",
+      "claim": "Physically coupled Bianchi VIIh rotation tightly constrained by Planck",
+      "status": "MODEL_CONSTRAINT",
+      "relevance_to_global_rotation": "against_specific_global_model",
+      "description": "No evidence for physical Bianchi VIIh model; (ω/H)₀<7.6e-10 at 95% confidence in the specified analysis.",
+      "source_ids": [
+        "PLANCK15"
+      ],
+      "limits": "Do not apply the numerical bound to all rotating geometries; decoupled Bianchi fits are cosmologically inconsistent."
+    },
+    {
+      "id": "ROT-C02",
+      "domain": "cosmology",
+      "claim": "2015 Planck nonphysical decoupled Bianchi fit is not a physical rotating-universe detection",
+      "status": "MODEL_CONSTRAINT",
+      "relevance_to_global_rotation": "against_specific_global_model",
+      "description": "An improved temperature fit in an inconsistent decoupled model is not evidence for a self-consistent cosmology.",
+      "source_ids": [
+        "PLANCK15"
+      ],
+      "limits": "Distinguish model comparison and parameter coherence."
+    },
+    {
+      "id": "ROT-C03",
+      "domain": "cosmology",
+      "claim": "JADES galaxy-handedness imbalance reported in 2025",
+      "status": "REPORTED_CONTESTED",
+      "relevance_to_global_rotation": "candidate_global",
+      "description": "A peer-reviewed analysis reports unequal projected spin handedness in one observed deep-field sample.",
+      "source_ids": [
+        "JADES25"
+      ],
+      "limits": "Selection, recognition bias, viewing geometry, redshift and hemispheric replication remain alternative explanations; not a measurement of metric rotation."
+    },
+    {
+      "id": "ROT-C04",
+      "domain": "cosmology",
+      "claim": "Anisotropic cosmic birefringence remains constrained",
+      "status": "MODEL_CONSTRAINT",
+      "relevance_to_global_rotation": "neutral",
+      "description": "A 2025 CMB B-mode analysis reports amplitude consistent with zero within 2σ and a model-dependent bound.",
+      "source_ids": [
+        "BIRE25"
+      ],
+      "limits": "Polarization rotation/axion couplings are not the same observable as metric vorticity."
+    },
+    {
+      "id": "ROT-C05",
+      "domain": "cosmology",
+      "claim": "Rotating Newtonian-universe simulations are theoretical",
+      "status": "PROPOSED_MODEL",
+      "relevance_to_global_rotation": "candidate_global",
+      "description": "Exploration of shear-free or global-vorticity Newtonian models; a model family to test, not measurement.",
+      "source_ids": [
+        "NEWTON25"
+      ],
+      "limits": "Newtonian global rotation is not a covariant Einstein-metric derivation."
+    },
+    {
+      "id": "ROT-E01",
+      "domain": "EFMW",
+      "claim": "ME-055 defines universal rotation using curl of a proposed cosmic velocity field",
+      "status": "PROPOSED_MODEL",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Ω_U=∇×v_U requires a physically defined v_U and a cosmological congruence.",
+      "source_ids": [
+        "EFMW-ME055",
+        "LEAN-VORT"
+      ],
+      "limits": "No observed nonzero cosmic v_U or invariant vorticity detection."
+    },
+    {
+      "id": "ROT-E02",
+      "domain": "EFMW",
+      "claim": "ME-056 adds a scalar Ω²/a² term to Friedmann-like rate equation",
+      "status": "PROPOSED_MODEL",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "An explicitly stipulated scalar extension, not a derived Einstein/Bianchi model.",
+      "source_ids": [
+        "EFMW-ME056",
+        "LEAN-COS",
+        "LEAN-STATUS"
+      ],
+      "limits": "Need metric, stress-energy, units, dynamical evolution and data; strong k−ω² degeneracy."
+    },
+    {
+      "id": "ROT-E03",
+      "domain": "EFMW",
+      "claim": "ME-056 scalar sign and curvature degeneracies are established within chosen equation",
+      "status": "FORMALIZED_CONDITIONAL",
+      "relevance_to_global_rotation": "against_unique_detection",
+      "description": "ω and −ω give the same rate; k−ω² is what scalar expansion constrains.",
+      "source_ids": [
+        "LEAN-COS"
+      ],
+      "limits": "A single H(a) observable cannot uniquely measure ω without independent constraints."
+    },
+    {
+      "id": "ROT-E04",
+      "domain": "EFMW",
+      "claim": "ME-055/056 rigid rotation normalization is vorticity=2 angular speed",
+      "status": "FORMALIZED_CONDITIONAL",
+      "relevance_to_global_rotation": "neutral",
+      "description": "If ω denotes rigid angular speed, a term in ω² equals |curl v|²/4.",
+      "source_ids": [
+        "LEAN-ROT",
+        "LEAN-COS"
+      ],
+      "limits": "The chosen identification of cosmic parameter with local rigid rotation is additional modeling."
+    },
+    {
+      "id": "ROT-N01",
+      "domain": "cross-field",
+      "claim": "There is no verified identical nonzero rotation generator coupling all field sectors",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Cross-sector universality is a hypothesis requiring an action, coupling, invariants and a distinctive observable prediction.",
+      "source_ids": [
+        "EFMW-ME055",
+        "EFMW-ME056",
+        "PLANCK15"
+      ],
+      "limits": "Analogies between spin, phase, polarization and vorticity do not establish a common physical origin."
+    }
+  ]
+}
