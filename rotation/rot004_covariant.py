@@ -32,8 +32,8 @@ class GRKinematics:
         """3H^2 = kappa*rho + Lambda + sigma^2 - omega^2 - R_rest/2."""
         if self.shear_sq < 0 or self.vorticity_sq < 0:
             raise ValueError("Squared shear and vorticity cannot be negative")
-        return (self.kappa_rho + self.lam + self.shear_sq
-                - self.vorticity_sq - self.projected_rest_curvature / 2) / 3
+        return F(1, 3) * (self.kappa_rho + self.lam + self.shear_sq
+                          - self.vorticity_sq - F(1, 2) * self.projected_rest_curvature)
 
 
 @dataclass(frozen=True)
@@ -48,8 +48,8 @@ class ME056:
         """Stipulated ME-056, requiring positive a and an externally defined omega."""
         if self.a <= 0:
             raise ValueError("Scale factor must be positive")
-        return ((self.kappa_rho + self.lam) / 3
-                + (self.omega_scalar**2 - self.curvature_k) / (self.a**2))
+        return (F(1, 3) * (self.kappa_rho + self.lam)
+                + F(1) * (self.omega_scalar**2 - self.curvature_k) / (self.a**2))
 
 
 def bridge_residual(gr: GRKinematics, me: ME056) -> Number:
