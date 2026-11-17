@@ -24,3 +24,15 @@ jobs:
         run: node --check assets/rotation-lab.js
       - name: Smoke test browser controls and evidence browser
         run: node tests/smoke_rotation_lab.cjs
+  exact-gr-godel:
+    name: Classical Gödel Einstein-tensor symbolic control
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned symbolic dependency
+        run: python -m pip install sympy==1.14.0
+      - name: Recompute Gödel Ricci and Einstein tensor
+        run: python research/rot004_godel_sympy.py
