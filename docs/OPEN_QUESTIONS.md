@@ -19,6 +19,9 @@ Status as of **2026-11-17**. None of the following has been verified closed in t
 | ROT-O13 | Preserve full negative results and independent custody | Avoid selective outcome reporting | Independent experiment custodian |
 | ROT-O14 | Distinguish physical rotation from geometric representation | Clifford rotor is not measured universal motion | Geometric algebra specialist |
 
+| ROT-O15 | Reconcile ME-056 with the full 1+3 Einstein constraint | ROT-004 derives a necessary shear/curvature bridge; no new metric | Source-pinned rotating metric and physical congruence |
+| ROT-O16 | Test an expanding rotating metric in ROT-005 | Gödel proves rotation without expansion; cannot stand in for an expanding cosmology | Einstein tensor, matter conservation, kinematics and null limit |
+
 ## First bounded sequence
 
 1. **Definitions:** Freeze five precise meanings of rotation from [WHAT_ROTATION_MEANS](WHAT_ROTATION_MEANS.md). Reject inter-category substitutions.
