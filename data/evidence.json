@@ -513,6 +513,46 @@
         "EFMW-ME056"
       ],
       "limits": "A failure of these limited source classes for one chosen geometry is not a disproof of all scalar approaches or a claim of observed universal rotation."
+    },
+    {
+      "id": "ROT-C14",
+      "domain": "cosmology",
+      "claim": "The fixed ROT-005 metric has a positive Ricci scalar, R=797/(808a²), and g^tt=−100/101",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "Exact source-pinned tensor verification gives R>0 and a timelike coordinate time gradient throughout t>−2. These signs determine a sharp test for real homogeneous scalar sources.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT007-REPORT"
+      ],
+      "limits": "This describes only the fixed KO metric and coordinate-domain assumptions; it is not a measurement of the observed cosmos."
+    },
+    {
+      "id": "ROT-C15",
+      "domain": "scalar",
+      "claim": "The frozen Einstein–massless-real-scalar–Maxwell source with homogeneous real scalar cannot satisfy the fixed Einstein trace",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Four-dimensional Maxwell trace vanishes, while scalar trace is +(100/101)phi_dot²; matching fixed G trace forces phi_dot²=−80497/(80800a²)<0 for t>−2.",
+      "source_ids": [
+        "ROT007-REPORT",
+        "SCALAR-EM-2022"
+      ],
+      "limits": "Exact FAIL for V=0, Lambda=0, phi=phi(t), standard kinetic sign; not a no-go for spatial scalar gradients, potentials, nonminimal couplings or other metrics."
+    },
+    {
+      "id": "ROT-E10",
+      "domain": "EFMW",
+      "claim": "A scalar–Maxwell action with different spatial scalar profile or a new fixed potential remains untested",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "ROT-008 would keep the minimal action frozen but allow a specified phi(t,x), then test the full Einstein, scalar and Maxwell equations. Alternatively declare a separate new action before re-analysis.",
+      "source_ids": [
+        "ROT007-REPORT",
+        "EFMW-ME055",
+        "EFMW-ME056"
+      ],
+      "limits": "Avoid retuning the failed ROT-007 action after seeing the trace obstruction. Even a sourced solution would not by itself verify universal cosmic rotation."
     }
   ]
 }

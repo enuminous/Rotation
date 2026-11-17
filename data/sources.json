@@ -254,6 +254,20 @@
       "year": "2025",
       "url": "https://www.mdpi.com/2218-1997/11/3/100",
       "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "ROT007-REPORT",
+      "title": "Monolithic ROT-007 exact Einstein–scalar–Maxwell trace obstruction for the frozen homogeneous source ansatz",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md",
+      "type": "independent_source_level_research"
+    },
+    {
+      "id": "SCALAR-EM-2022",
+      "title": "Einstein–Maxwell gravity with a minimally coupled massless scalar field: field equations and stress tensor",
+      "year": "2022",
+      "url": "https://www.mdpi.com/2218-1997/8/3/151",
+      "type": "peer_reviewed_theoretical_source"
     }
   ]
 }
