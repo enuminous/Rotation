@@ -60,7 +60,10 @@ This is the conventional incompressible Navier–Stokes equation; it does **not*
 
 [ROT-006](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) uses a source-first minimally coupled real or complex scalar action, and compares its invariant mixed stress spectrum to the exact ROT-005 source. For **this one** rotating metric, the standalone scalar/complex scalar, ordinary perfect fluid and pure Maxwell action fail to match. The chosen rotating matter velocity is not the gradient of one scalar by Frobenius.
 
-This limits a *minimal scalar-only realization* of the proposed cosmic effect. It does **not** invalidate ME-016 scalar phase identities, justify all fields rotating, exclude richer EFMW scalar–vector matter, or close the Einstein–source derivation. The next bounded candidate is the independently written ROT-007 scalar–Maxwell action, not an arbitrary stress tensor chosen to match the metric.
+This limits a *minimal scalar-only realization* of the proposed cosmic effect. It does **not** invalidate ME-016 scalar phase identities, justify all fields rotating, exclude richer EFMW scalar–vector matter, or close the Einstein–source derivation. That ROT-007 action and its real homogeneous scalar ansatz have now undergone an exact source-first test and **failed its Einstein trace**. See the bounded result below.
+## ROT-007: the minimal scalar–Maxwell trace mismatch
+
+The [published ROT-007 test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) holds fixed a canonical real scalar `phi(t)`, a standard Maxwell field with potential of the declared form, no scalar potential and `Lambda=0`. The exact KO metric has `R=797/(808a²)>0`, while the matter field equations require `R=(grad phi)²=-100/101*phi_dot²<=0`. **FAIL for the frozen source/ansatz**, not a disproof of EFMW, scalar phase dynamics, other metrics or physically distinct scalar–vector couplings. The canonical Monolithic 102 equations remain unchanged.
 ## Scope warning
 
 A theorem about the formal **specialization** does not prove the original relativistic statement. A theorem about a deliberately chosen scalar expansion equation does not prove it follows from Einstein's equations. Source-level Lean hygiene and past reported builds should not be presented here as a fresh independent kernel replay.

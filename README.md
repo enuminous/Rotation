@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 36 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 38 source records.
 
 Run locally:
 
@@ -71,7 +71,15 @@ The published Korotkii–Obukhov family supplies a **specific expanding, rotatin
 
 For the same fixed ROT-005 geometry, the exact mixed stress-energy tensor has **four distinct eigenvalues**. Ordinary perfect fluids, a standalone first-derivative real scalar, a standalone ordinary complex scalar (two real components), and pure Maxwell matter require repeated eigenvalues. They **cannot individually source this one exact rotating metric**, even after changing observer frame. The comoving rotating fluid's Frobenius 3-form is also nonzero and cannot be the normalized gradient of one scalar.
 
-**Scope:** This is a constrained mathematical exclusion for a **particular metric and matter-action family**. It does not exclude scalar–vector, nonminimal, higher-derivative or multi-field theories, other rotating spacetimes, or a future EFMW theory. **ROT-007 next:** select a specific coupled matter action and try to solve *all* Einstein and field equations without defining the stress tensor after the fact.
+**Scope:** This is a constrained mathematical exclusion for a **particular metric and matter-action family**. It does not exclude scalar–vector, nonminimal, higher-derivative or multi-field theories, other rotating spacetimes, or a future EFMW theory. **ROT-007 has now tested that candidate; the frozen homogeneous scalar–Maxwell ansatz fails the necessary Einstein trace.** See the next report.
+
+## ROT-007 — A source-first scalar–Maxwell trace obstruction
+
+**Published:** [ROT-007 exact mathematical report](research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) · [source-derived SymPy check](research/rot007_einstein_scalar_maxwell.py).
+
+The previously frozen action used a real homogeneous massless scalar `phi(t)`, a standard Maxwell potential, `V=0` and `Lambda=0`. The exact fixed KO geometry requires `G^a_a = -797/(808a²) < 0`, but the candidate source gives `T^a_a = (100/101)*phi_dot² >= 0`. Maxwell is traceless in four dimensions. **FAIL:** no real homogeneous scalar and no Maxwell amplitudes in that action can satisfy even the necessary Einstein trace. The analysis stops at this exact contradiction rather than claiming to solve the remaining field equations.
+
+**Scope:** This does **not** reject the full scalar–Maxwell family with spatial gradients, nonzero potentials, or other couplings. It does **not** identify rotation in the observed cosmos. **ROT-008** is a *separate, unrun* proposed test that changes only the scalar spatial ansatz while holding the source action fixed.
 
 ## Critical separation of claims
 

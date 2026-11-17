@@ -56,3 +56,7 @@ Construct a **gauge-invariant and observer-invariant** proposed EFMW scalar rota
 If a physical observer velocity \(u_a\) is proportional to \(\partial_a\phi\), its vorticity vanishes by Frobenius. The ROT-005 comoving fluid has nonzero \(u\wedge du\), so that **specific** physical congruence cannot be a one-scalar gradient.
 
 These results do **not** rule out scalar–vector couplings, nonminimal curvature terms, higher-derivative models, other rotating metrics, or genuinely multi-field source actions. They also do not claim all scalar fields intrinsically rotate.
+
+## G. ROT-007: combined scalar + Maxwell also fails under the frozen homogeneous ansatz
+
+[ROT-007](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) tests the complete **trace** required by the Einstein–scalar–Maxwell action with `V=Lambda=0` and real `phi(t)`. Even allowing arbitrary electromagnetic `E(t),B(t)`, the Maxwell stress trace vanishes; the scalar trace is `(100/101)*phi_dot²>=0`. The fixed rotating/expanding metric needs `G^a_a=-797/(808a²)<0`. This yields a contradiction without choosing field amplitudes. A spatial real gradient, an explicitly declared potential or a richer action may alter the necessary trace equation, so **the negative result is intentionally not universal**.

@@ -1,6 +1,6 @@
 # Rotation experimental program — freeze → predict → test → ablate → reproduce
 
-**Updated 2026-11-17.** ROT-004, ROT-005, and ROT-006 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
+**Updated 2026-11-17.** ROT-004 through ROT-007 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
 
 ## Completed bounded mathematical investigations
 
@@ -12,21 +12,13 @@
 
 All results are scoped to their mathematical hypotheses. A full Einstein-tensor computation does not produce an observed cosmology. A source defined by \(T=G/\kappa\) is not a microphysical model. A result about one metric does not rule out all rotating spacetimes.
 
-## The next attempt: ROT-007 — predefined scalar–Maxwell source, not yet run
+| ROT-007 | [Source-first Einstein–scalar–Maxwell test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) | PASS for exact negative mathematical witness; FAIL for the frozen real homogeneous scalar, V=Lambda=0 and Maxwell fields because the Einstein trace forces a negative real derivative square; richer actions and spatial scalar gradients UNRESOLVED |
 
-See [ROT-007 source-first protocol](../research/ROT-007_PROTOCOL.md).
+## Next proposal: ROT-008 — one controlled ansatz change (UNRUN)
 
-**Candidate matter action (no a posteriori free correction tensor):**
+See [ROT-008 proposal](../research/ROT-008_PROTOCOL.md). Preserve the **same minimal massless scalar + Maxwell action** but permit a nonhomogeneous real scalar `phi=ct+dx`. The trace obstruction for `phi(t)` no longer applies automatically if the spatial gradient is spacelike; success is **not** implied. Independently derive every Einstein component, the scalar wave equation and Maxwell equations, and keep a strict negative-result stop rule.
 
-```text
-S = ∫ sqrt(-g) [ R/(2κ) - 1/2(∇phi)^2 - 1/4 F_ab F^ab ] d^4x.
-F=dA, κ=1, Λ=0, V=0.
-```
-
-Primary source compatibility requires `G_ab = T_ab(phi,A)` *and* \(\Box\phi=0\) *and* \(\nabla_a F^{ab}=0\). One cannot fit only the diagonal Einstein components. Check a Bianchi-compatible ansatz \(\phi=\phi(t)\), \(A=E(t)e^{x/2}dy+B(t)dz\), then vary amplitudes only as solutions of the actual field equations. It is an **exploratory, already-target-aware** test, not an independently preregistered discovery benchmark.
-
-**PASS:** a full source-field solution matching the fixed KO metric, conservation, and explicitly stated initial/boundary conditions. **FAIL:** a mathematical impossibility for this specified action/ansatz. **UNRESOLVED:** no exact solution and no general impossibility established. A PASS would still not demonstrate observed universal rotation or validate ME-056's unique rotation parameter.
-
+**ROT-007 is COMPLETE as a bounded FAIL:** its source-pinned trace contradiction is an early-stop proof of impossibility for its exact action and homogeneous scalar. No need to solve all remaining matter differential equations once a necessary Einstein equation is impossible. The original ROT-007 protocol remains preserved verbatim as the pre-run hypothesis; results live in its separately versioned report.
 ## Independent baseline tracks still open
 
 ### ROT-001 — mathematical normalization and degeneracy
@@ -62,6 +54,7 @@ Compare an ordinary real scalar, ordinary complex field, scalar with U(1) gauge 
 |---|---|---|
 | Specific GR geometries showing local covariant rotation | **PASS (ROT-004/005 examples)** | Reproducible Einstein tensors; examples not novel |
 | One- or two-scalar *sole* source for frozen ROT-005 | **FAIL (ROT-006)** | Exact tensor spectrum; limited no-go |
+| Homogeneous real scalar plus standard Maxwell under frozen minimal action | **FAIL (ROT-007)** | Einstein trace contradiction for this fixed KO metric |
 | Independently derived viable EFMW matter source | **UNRESOLVED** | Full field action and exact stress tensor |
 | EFMW-unique identifiable rotational observable | **UNRESOLVED** | Prediction beyond curvature/ordinary models |
 | Current Planck-compatible astronomical fit | **UNRESOLVED** | Reproducible likelihood and constraints |

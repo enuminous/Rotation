@@ -53,6 +53,9 @@ The example's source is **defined** from its Einstein tensor, not derived from a
 ## ROT-006: source-first matter obstruction (not a cosmic measurement)
 
 The [ROT-006 source audit](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) finds that the exact stress required by the chosen ROT-005 metric cannot arise from a standalone ordinary real scalar, ordinary complex scalar, perfect fluid or pure Maxwell model. This is proved by the invariant eigenvalue multiplicities of their respective stress tensors. More general matter models can remain physically viable; no new cosmological observation follows.
+## ROT-007: a limited matter trace no-go
+
+For the chosen KO metric, the [frozen homogeneous real scalar + Maxwell action](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) would require a negative square of a real field derivative to match Einstein's tensor trace. It therefore fails for **this exact ansatz**. This negative result has no observational content and does not refute rotating spacetimes supported by other matter sources.
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

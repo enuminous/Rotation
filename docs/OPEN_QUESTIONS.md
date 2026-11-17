@@ -1,6 +1,6 @@
 # Open obligations and limits — the work required before stronger conclusions
 
-Status as of **2026-11-17**. The obligations below concern the physical EFMW theory. ROT-004–006 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
+Status as of **2026-11-17**. The obligations below concern the physical EFMW theory. ROT-004–007 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
 
 | ID | Obligation | Why it matters | Proposed test/owner role |
 |---|---|---|---|
@@ -22,12 +22,14 @@ Status as of **2026-11-17**. The obligations below concern the physical EFMW the
 | ROT-O15 | Reconcile ME-056 with the full 1+3 Einstein constraint | ROT-004 derives a necessary shear/curvature bridge; no new metric | Source-pinned rotating metric and physical congruence |
 | ROT-O16 | Test an expanding rotating metric in ROT-005 | Gödel proves rotation without expansion; cannot stand in for an expanding cosmology | Einstein tensor, matter conservation, kinematics and null limit |
 
-| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006 rules out several minimal *standalone* matter classes but has not found a full source theory | ROT-007 scalar–Maxwell coupled-source field-equation test |
+| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006 rules out standalone minimal matter; ROT-007 also excludes its specified homogeneous scalar+Maxwell candidate | ROT-008 spatial-gradient candidate with all Einstein and matter equations |
 | ROT-O18 | Resolve ME-056 parameter degeneracy in an expanding, rotating metric | Exact H² mismatch under natural identification, yet scalar fit by retuned k | Independent curvature/vorticity observable |
 | ROT-O19 | Test real-data viability of a causally admissible rotating cosmology | Mathematical source and WEC do not establish CMB compatibility | Model-dependent likelihood and sealed data controls |
 
-| ROT-O20 | Determine whether a physical scalar–vector action can match the same exact KO geometry | ROT-006 finds a four-simple-eigenvalue obstruction for a single scalar/complex scalar/perfect fluid/Maxwell **alone** | A frozen Einstein–scalar–Maxwell model with full field equations |
+| ROT-O20 | Determine whether a physical scalar–vector action can match the same exact KO geometry | ROT-007's homogeneous massless scalar+Maxwell action fails the necessary trace | Test a new *explicitly scoped* ansatz or new action without silent retuning |
 | ROT-O21 | Test whether an EFMW-specific scalar-derived observer can rotate | Frobenius excludes a normalized *single-scalar gradient* from reproducing the chosen rotating congruence | An explicitly covariant independent velocity/connection field or prove no-go |
+
+| ROT-O22 | Test an inhomogeneous scalar without changing the ROT-007 action | The trace contradiction depends on a timelike-only scalar gradient; a spacelike gradient can change sign | ROT-008 complete Einstein and scalar/Maxwell field equations |
 
 ## First bounded sequence
 
