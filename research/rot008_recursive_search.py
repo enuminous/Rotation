@@ -179,7 +179,7 @@ def compute() -> dict[str, object]:
     # Positive/negative controls: single gate passing does not close theory.
     wave_null=sp.factor(box_phi.subs({c:0,d:0}))
     trace_null=sp.factor(trace_residual.subs({c:0,d:0}))
-    assert wave_null==0 and trace_null==-sp.Rational(797,808)/a**2
+    assert sp.simplify(wave_null)==0 and sp.simplify(trace_null+sp.Rational(797,808)/a**2)==0
     d_control=sp.sqrt(sp.Rational(797,808))
     assert sp.simplify(trace_residual.subs({c:0,d:d_control}))==0
     assert sp.simplify(box_phi.subs({c:0,d:d_control}))!=0
