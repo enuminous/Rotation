@@ -48,3 +48,5 @@ jobs:
         run: python -m pip install sympy==1.14.0
       - name: Recompute Einstein tensor, vorticity, causality and WEC
         run: python research/rot005_ko_sympy.py
+      - name: Check ROT-006 source-first matter action exclusions
+        run: python research/rot006_scalar_source_test.py
