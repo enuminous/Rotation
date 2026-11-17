@@ -86,12 +86,12 @@ assert.equal(MockURL.created,6,"CSV exports did not all fire");
 assert(pendingAnimation,"Animation not scheduled");
 (async()=>{
   await Promise.resolve();await Promise.resolve();await new Promise(setImmediate);
-  assert.equal(elements.get("evidence-cards").children.length,26,"Evidence cards did not load");
+  assert.equal(elements.get("evidence-cards").children.length,evidence.evidence.length,"Evidence cards did not load");
   elements.get("status-filter").value="OPEN";
   elements.get("status-filter").fire("input");
-  assert(elements.get("evidence-cards").children.length<26);
+  assert(elements.get("evidence-cards").children.length<evidence.evidence.length);
   elements.get("status-filter").value="";
   elements.get("status-filter").fire("input");
-  assert.equal(elements.get("evidence-cards").children.length,26);
-  console.log("PASS: six modes, sliders, metrics, resets, step, CSV, 26 evidence cards and filters");
+  assert.equal(elements.get("evidence-cards").children.length,evidence.evidence.length);
+  console.log("PASS: six modes, sliders, metrics, resets, step, CSV, source-linked evidence cards and filters");
 })().catch(e=>{console.error(e);process.exitCode=1});
