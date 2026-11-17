@@ -50,3 +50,5 @@ jobs:
         run: python research/rot005_ko_sympy.py
       - name: Check ROT-006 source-first matter action exclusions
         run: python research/rot006_scalar_source_test.py
+      - name: ROT-007 exact Einstein-scalar-Maxwell trace obstruction
+        run: python research/rot007_einstein_scalar_maxwell.py
