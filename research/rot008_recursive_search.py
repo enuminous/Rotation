@@ -149,7 +149,7 @@ def compute() -> dict[str, object]:
             return prune(branch,1,{"c":sp.Integer(0)})
         if branch=="trace-first" and depth==1:
             rem=sp.factor(trace_polynomial.subs(c,0))
-            assert rem==d*d-sp.Rational(797,808)
+            assert sp.simplify(rem-(d*d-sp.Rational(797,808)))==0
             sols=sp.solveset(rem,d,domain=sp.S.Reals)
             assert sols==sp.FiniteSet(-sp.sqrt(sp.Rational(797,808)),
                                       sp.sqrt(sp.Rational(797,808)))
