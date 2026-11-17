@@ -1,0 +1,79 @@
+{
+  "artifact": "ROT-008 observed CI stdout ledger",
+  "audited_source_commit": "e727c93f35cf2d107483081a1020ece8938aa028",
+  "workflow_run_id": 44173109860,
+  "workflow_run_url": "https://github.com/enuminous/Rotation/actions/runs/44173109860",
+  "verified_step": "ROT-008 recursively prune fixed scalar branches to termination",
+  "note": "Captured from actual successful GitHub Actions job stdout; reproducibility proof tree is computational, not empirical cosmic evidence.",
+  "experiment": "ROT-008",
+  "status": "PASS_FINITE_RECURSIVE_NO_GO_VERIFICATION",
+  "candidate_verdict": "FAIL_FROZEN_ACTION_AND_LINEAR_REAL_SCALAR_ANSATZ",
+  "predictions_file": "research/ROT-008_PREDICTIONS_AND_STOP.md",
+  "physical_domain": "t>-2; a(t)=1+t/2>0; real constants c,d",
+  "wave_equation": "-2*(150*c*t + 300*c - 101*d)/(101*(t + 2)**2)",
+  "wave_polynomial_202_a2": "-150*c*t - 300*c + 101*d",
+  "required_Einstein_trace": "-797/(202*(t + 2)**2)",
+  "scalar_trace": "4*(25*c**2*t**2 + 100*c**2*t + 100*c**2 - 101*d**2)/(101*(t + 2)**2)",
+  "Maxwell_trace": "0",
+  "Einstein_trace_residual": "-(200*c**2*t**2 + 800*c**2*t + 800*c**2 - 808*d**2 + 797)/(202*(t + 2)**2)",
+  "trace_polynomial_a2": "-(200*c**2*t**2 + 800*c**2*t + 800*c**2 - 808*d**2 + 797)/808",
+  "proof_strategy": "deterministic recursive branch-prune, independent wave-first and trace-first",
+  "max_allowed_depth": 6,
+  "branches_evaluated": 2,
+  "nodes_evaluated": 6,
+  "terminal_contradictions": 2,
+  "branch_ledger": [
+    {
+      "branch": "wave-first",
+      "depth": 0,
+      "test": "d/dt[(202*a^2)*Box(phi)]=0 on interval",
+      "deduction": "c=0",
+      "status": "PRUNED_TO_SUBBRANCH"
+    },
+    {
+      "branch": "wave-first",
+      "depth": 1,
+      "test": "Box(phi)=0 after c=0",
+      "deduction": "d=0",
+      "status": "PRUNED_TO_SUBBRANCH"
+    },
+    {
+      "branch": "wave-first",
+      "depth": 2,
+      "test": "Einstein trace at c=d=0",
+      "contradiction": "-797/808 != 0 for all a>0",
+      "status": "TERMINAL_FAIL"
+    },
+    {
+      "branch": "trace-first",
+      "depth": 0,
+      "test": "d/dt[a^2*(G_trace-T_trace)]=0 on interval",
+      "deduction": "c=0",
+      "status": "PRUNED_TO_SUBBRANCH"
+    },
+    {
+      "branch": "trace-first",
+      "depth": 1,
+      "test": "Einstein trace after c=0",
+      "deduction": "d=+-sqrt(797/808), so d != 0",
+      "status": "PRUNED_TO_SUBBRANCH"
+    },
+    {
+      "branch": "trace-first",
+      "depth": 2,
+      "test": "Box(phi)=0 after c=0 and d^2=797/808",
+      "contradiction": "wave demands d=0 but trace demands d^2=797/808>0",
+      "status": "TERMINAL_FAIL"
+    }
+  ],
+  "controls": {
+    "zero_scalar_wave_equation": "PASS",
+    "zero_scalar_Einstein_trace": "FAIL",
+    "trace_only_nonzero_spatial_scalar": "PASS_TRACE_BUT_FAIL_WAVE",
+    "single_time_wave_solution": "PASS_AT_ONE_TIME_BUT_FAIL_GLOBAL"
+  },
+  "Maxwell_dF_zero_checked": true,
+  "remaining_Maxwell_equations": "NOT_SOLVED: not needed after necessary Einstein+wave contradictions",
+  "termination": "PROVEN_EXACT_UNSAT_FOR_FROZEN_DOMAIN_AND_ANSATZ",
+  "limits": "Cannot infer impossibility for general phi(t,x), phi=F(t)+d*x, new potentials, nonminimal scalar/vector theory, other metrics or observed universal rotation."
+}
