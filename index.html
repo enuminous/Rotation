@@ -2,99 +2,127 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rotation — Monolithic Evidence Atlas</title>
-<style>
-:root{color-scheme:dark;--bg:#0b121e;--panel:#142138;--line:#354a60;--ink:#ecf4f7;--muted:#aec2d2;--accent:#eed08a}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#253451,#0b121e 55%);font:15px/1.55 system-ui,Arial,sans-serif;color:var(--ink)}
-header,main,footer{max-width:1150px;margin:auto;padding:20px}header{padding-top:48px}h1{font-size:clamp(3rem,8vw,5rem);letter-spacing:-.05em;line-height:1.05;margin:5px 0 18px}h2{font-size:1.36rem;margin:0 0 12px}h3{font-size:1rem;margin:8px 0}p{margin:0 0 12px}a{color:#91e6d9;text-underline-offset:3px}header>p{color:#d1dbe6;max-width:760px;font-size:1.12rem}.eyebrow{color:var(--accent);letter-spacing:.15em;font-weight:700;font-size:.73rem}.links{display:flex;flex-wrap:wrap;gap:9px;margin:17px 0}.links a{padding:8px 11px;border:1px solid var(--line);border-radius:7px;text-decoration:none;font-size:.85rem}section{border:1px solid var(--line);background:rgba(20,33,56,.94);border-radius:14px;padding:22px;margin-bottom:18px}.warning{border-left:4px solid var(--accent);padding:12px 16px;background:#263249;border-radius:5px}.muted,small{color:var(--muted);font-size:.85rem}.numbers{display:flex;gap:20px;flex-wrap:wrap;margin:15px 0}.numbers div{padding:12px;background:#22304a;border-radius:8px;min-width:130px}.numbers strong{display:block;font-size:1.7rem;color:var(--accent)}.split{display:grid;grid-template-columns:330px 1fr;gap:20px}canvas{width:100%;border-radius:12px;background:#0b1729;aspect-ratio:1}label{display:block;margin:9px 0 5px;color:var(--muted)}input,select{background:#0d182a;color:var(--ink);border:1px solid var(--line);padding:8px;border-radius:6px;width:100%;font:inherit}.filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:12px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}.card{padding:15px;border:1px solid var(--line);border-radius:10px;background:#111d30}.card p{font-size:.85rem;color:#bdccda}.badge{font-size:.68rem;letter-spacing:.035em;color:#10202f;background:#9be3d5;padding:3px 6px;border-radius:5px}.badge.open{background:#d4acd4}.badge.constraint{background:#eed08a}.sources{display:flex;flex-wrap:wrap;gap:10px;font-size:.75rem}footer{font-size:.82rem;color:var(--muted);padding-bottom:45px}
-@media(max-width:740px){.split{grid-template-columns:1fr}.filters{grid-template-columns:1fr}header{padding-top:25px}}
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Monolithic Rotation Lab: interactive scalar phase, real-scalar null, SO(3) vector rotation, Clifford spinors, fluid vorticity and proposed cosmology parameter identifiability.">
+<meta name="theme-color" content="#090f1d">
+<title>Rotation Lab — Monolithic Research</title>
+<link rel="stylesheet" href="./assets/rotation-lab.css">
+<script defer src="./assets/rotation-lab.js"></script>
 </head>
 <body>
-<header>
-<div class="eyebrow">MONOLITHIC • CROSS-FIELD RESEARCH</div>
-<h1>Rotation<br>is not yet <span style="color:var(--accent)">universal.</span></h1>
-<p>An evidence atlas for scalar phase, geometric algebra, spinors, fluid vorticity, frame dragging, and cosmological rotation. A claim can be beautiful and still require a falsifiable test.</p>
-<nav class="links"><a href="https://github.com/enuminous/Rotation">GitHub repository</a><a href="docs/SCALAR_FIELDS.md">Scalar fields</a><a href="docs/CLIFFORDS.md">The Cliffords</a><a href="docs/COSMOLOGY.md">Cosmic constraints</a><a href="docs/EFMW_CROSSWALK.md">Monolithic 102</a><a href="docs/EXPERIMENTS.md">Experimental program</a></nav>
+<div class="page">
+<header class="site-head">
+ <div class="brand-line">
+  <a class="brand" href="https://github.com/enuminous/Rotation" aria-label="Monolithic Rotation GitHub repository">MONOLITHIC / ROTATION</a>
+  <nav class="nav" aria-label="Site sections">
+   <a href="#lab">Rotation lab</a>
+   <a href="#science">Scientific scope</a>
+   <a href="#evidence">Evidence explorer</a>
+   <a href="docs/EXPERIMENTS.md">Experimental plan</a>
+   <a href="https://github.com/enuminous/Rotation">GitHub source</a>
+  </nav>
+ </div>
 </header>
 <main>
-<section>
-<h2>Current scientific standing</h2>
-<p class="warning"><strong>Global cosmic rotation is not an established result.</strong> Laboratory vortices, spinors, black-hole spin and local frame dragging are observed or well tested. Planck's Bianchi VIIh analysis found no evidence for that physical rotating-cosmology model and placed a model-specific bound of (ω/H)₀ &lt; 7.6×10⁻¹⁰ at 95% confidence. Cross-field analogy is not a measurement.</p>
-<div id="numbers" class="numbers"><div><strong>26</strong>Evidence entries</div><div><strong>27</strong>Source records</div></div>
+<section class="hero" aria-label="Introduction">
+ <div>
+  <div class="brand" style="margin-bottom:18px">A FIELD RESEARCH WORKBENCH / V0.2</div>
+  <h1>Everything<br>that <span>rotates.</span></h1>
+  <p>Six interactive mathematical instruments for investigating rotation in vectors, scalars, Clifford rotors, fluid motion and an EFMW cosmology hypothesis.</p>
+  <p class="tiny">A visualization of an equation is not an observation. Every mode includes its assumptions and a null or non-identifiability condition.</p>
+  <div class="hero-tags">
+   <a href="docs/FIELD_ATLAS.md">Cross-field atlas</a>
+   <a href="docs/SCALAR_FIELDS.md">Scalar physics</a>
+   <a href="docs/CLIFFORDS.md">Clifford algebra</a>
+   <a href="docs/EFMW_CROSSWALK.md">Monolithic 102</a>
+   <a href="docs/BSAR_BRIDGE.md">Topher / BSA-R connection</a>
+  </div>
+ </div>
+ <aside class="hero-side" aria-label="Scientific status">
+  <div class="eyebrow">EVIDENCE RULE</div>
+  <p>Observed local rotation is real. Nonzero <em>universal</em> cosmic rotation is not an established observation. Similar algebra across fields does not establish one shared physical generator.</p>
+  <p>Planck's physically coupled Bianchi VIIh analysis found no evidence for that model and reported a model-specific upper limit of (ω/H)₀ &lt; 7.6×10⁻¹⁰ at 95% confidence.</p>
+  <div class="tiny">Source: <a href="https://doi.org/10.1051/0004-6361/201525829">Planck Collaboration, A&amp;A (2016)</a>. Constraint is not universal to every possible rotating metric.</div>
+ </aside>
 </section>
-<section>
-<h2>Three different rotations</h2>
-<div class="split">
-<div><canvas id="toy" width="400" height="400" aria-label="Illustrative planar rotation"></canvas></div>
-<div>
-<label for="mode">Field representation</label>
-<select id="mode"><option value="scalar">Complex scalar phase</option><option value="vector">Vector (SO3 fixed axis)</option><option value="spinor">Spinor/Clifford rotor</option></select>
-<label for="theta">Angle / phase value</label><input type="range" min="-6.283" max="12.566" step=".025" value="3.142" id="theta">
-<p id="toytext" aria-live="polite"></p>
-<p class="muted">This is a pure mathematical illustration. A complex scalar's internal phase, a rotating spatial vector, and a spinor's half-angle sign are distinct phenomena.</p>
-</div></div>
+<section class="panel lab-shell" id="lab" aria-labelledby="lab-title">
+ <div class="lab-heading">
+  <div><div class="kicker">ANALYTICAL ROTATION LAB</div><h2 id="lab-title">Choose an experiment</h2></div>
+  <div class="stage-status">SYNTHETIC / MATHEMATICAL — NOT TELEMETRY</div>
+ </div>
+ <div class="mode-strip" role="group" aria-label="Rotation experiment selection">
+  <button class="mode-button" type="button" data-mode="vector" aria-pressed="true"><span class="mode-number">01 / SO(3)</span><span class="mode-name">Vector rotation</span></button>
+  <button class="mode-button" type="button" data-mode="complex" aria-pressed="false"><span class="mode-number">02 / U(1)</span><span class="mode-name">Complex scalar</span></button>
+  <button class="mode-button" type="button" data-mode="real" aria-pressed="false"><span class="mode-number">03 / NULL</span><span class="mode-name">Real scalar</span></button>
+  <button class="mode-button" type="button" data-mode="clifford" aria-pressed="false"><span class="mode-number">04 / SPIN(3)</span><span class="mode-name">Clifford rotor</span></button>
+  <button class="mode-button" type="button" data-mode="fluid" aria-pressed="false"><span class="mode-number">05 / FLOW</span><span class="mode-name">Vorticity &amp; strain</span></button>
+  <button class="mode-button" type="button" data-mode="cosmic" aria-pressed="false"><span class="mode-number">06 / ME-056</span><span class="mode-name">Cosmic degeneracy</span></button>
+ </div>
+ <div class="lab-layout">
+  <aside class="controls" aria-label="Experiment controls">
+   <h3 class="section-title">Experimental controls</h3>
+   <div id="control-list" aria-live="polite"></div>
+   <div class="control-item">
+    <label for="speed"><span>Playback speed</span><span class="value" aria-hidden="true">× real time</span></label>
+    <select id="speed"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select>
+   </div>
+   <div class="control-actions">
+    <button id="play" class="action main" type="button" aria-pressed="true">Pause</button>
+    <button id="reset" class="action" type="button">Reset time</button>
+    <button id="step" class="action" type="button">Step +0.1 s</button>
+    <button id="export-csv" class="action" type="button">Export CSV</button>
+   </div>
+   <div class="keyboard">Shortcuts: Space play/pause · R reset · 1–6 switch experiments</div>
+   <div id="export-note" class="tiny" role="status" aria-live="polite"></div>
+   <div class="warning"><strong>Experimental boundary:</strong> Finite computations and exact analytic toy formulas do not validate the general Navier–Stokes equations, the gravitational field equations or an observational claim of a rotating universe.</div>
+  </aside>
+  <div class="stage-col">
+   <div class="stage-head">
+    <div id="mode-heading" class="stage-title">Vector rotation</div>
+    <div class="tiny">Elapsed model time: <strong id="time-value">0 s</strong></div>
+   </div>
+   <div class="canvas-wrap">
+    <canvas id="lab-canvas" width="960" height="640" role="img" aria-label="Animated mathematical representation of the selected rotation model">Interactive field visualization requires canvas support.</canvas>
+    <div class="canvas-bottom">Mathematical illustration • no observational data feed</div>
+   </div>
+   <div class="metric-grid" id="metric-grid" aria-live="off"></div>
+   <div class="description">
+    <div class="tiny" style="margin-bottom:6px">MODEL EQUATION</div>
+    <strong id="model-equation"></strong>
+    <p id="model-description" style="margin:8px 0 0"></p>
+    <div class="linkline"><a id="model-link" href="docs/WHAT_ROTATION_MEANS.md">Theory, sources and limitations</a></div>
+   </div>
+  </div>
+ </div>
 </section>
-<section>
-<h2>Explore the evidence</h2>
-<p class="muted">Filter the source-linked claim register. All records carry an epistemic status and a limitation. No source is treated as endorsing this atlas.</p>
-<div class="filters"><input id="search" type="search" placeholder="Search claims and limitations" aria-label="Search evidence"><select id="status" aria-label="Filter by status"><option value="">All statuses</option></select><select id="domain" aria-label="Filter by field"><option value="">All fields</option></select></div>
-<p id="counter" class="muted">Loading evidence JSON...</p><div id="records" class="cards"></div>
+<section class="panel science-section" id="science" aria-labelledby="science-title">
+ <div class="section-header"><h2 id="science-title">What the lab can and cannot show</h2><span class="tiny">Independent checks belong in GitHub Actions</span></div>
+ <div class="callout"><strong>The hard null:</strong> A smooth real scalar has zero curl of its gradient. A homogeneous complex phase can rotate internally without any spatial winding. A cosmological scalar expansion equation can be degenerate in curvature and angular-speed parameters. These are essential counterexamples to an overly broad universal-rotation assertion.</div>
+ <p>The vector and fluid experiments illustrate kinematic identities; the Clifford panel illustrates a double-cover representation; and the ME-056 panel displays two mathematically indistinguishable expansion curves. None claims an observational detection, and no field is made to share a cosmic generator without an additional physical derivation.</p>
+ <div class="hero-tags">
+  <a href="docs/WHAT_ROTATION_MEANS.md">Five different meanings of rotation</a>
+  <a href="docs/COSMOLOGY.md">Cosmic evidence and counterevidence</a>
+  <a href="docs/OPEN_QUESTIONS.md">Open research obligations</a>
+  <a href="docs/EXPERIMENTS.md">Falsification criteria</a>
+ </div>
 </section>
-<section>
-<h2>What would change the conclusion?</h2>
-<p>A self-consistent rotating Einstein metric and defined observer congruence; a cross-sector physical mechanism with explicit dimensions; a numerical prediction not already explained by conventional physics; and an independently controlled astronomical test that survives Planck and other constraints.</p>
-<p><a href="docs/OPEN_QUESTIONS.md">Open obligation ledger</a> · <a href="docs/BSAR_BRIDGE.md">Navier–Stokes collaboration bridge</a></p>
+<section class="panel science-section" id="evidence" aria-labelledby="evidence-title">
+ <div class="section-header"><h2 id="evidence-title">Evidence &amp; hypothesis registry</h2><span id="evidence-stats" class="tiny">Loading source records</span></div>
+ <p>Browse source-linked claims across field theories and experiments. Each record carries an epistemic status, references and limitations, including observations that constrain global cosmological rotation.</p>
+ <div class="explorer-controls">
+  <input type="search" id="search" aria-label="Search rotation evidence" placeholder="Search a claim, equation, caveat or source ID">
+  <select id="status-filter" aria-label="Filter evidence by status"><option value="">Every evidence status</option></select>
+  <select id="domain-filter" aria-label="Filter evidence by field"><option value="">Every field domain</option></select>
+ </div>
+ <p id="evidence-count" class="tiny" role="status" aria-live="polite">Loading evidence JSON...</p>
+ <div id="evidence-cards" class="evidence-cards"></div>
 </section>
 </main>
-<footer>Version 0.1.0 • 17 November 2026 • Monolithic LLC. This static explorer reads <a href="data/evidence.json">source data</a>; run a local HTTP server to open it offline. No empirical global-rotation claim is made.</footer>
-<script>
-"use strict";
-const $=id=>document.getElementById(id),state={claims:[],sources:new Map()};
-function draw(){
-const c=$("toy"),ctx=c.getContext("2d"),cx=200,cy=200,t=Number($("theta").value),m=$("mode").value;
-ctx.clearRect(0,0,400,400);ctx.strokeStyle="#40566c";ctx.lineWidth=1.5;
-ctx.beginPath();ctx.arc(cx,cy,135,0,2*Math.PI);ctx.stroke();
-ctx.beginPath();ctx.moveTo(20,cy);ctx.lineTo(380,cy);ctx.moveTo(cx,20);ctx.lineTo(cx,380);ctx.stroke();
-if(m==="scalar"){
-for(let j=0;j<180;j++){let a=2*Math.PI*j/180;ctx.beginPath();ctx.strokeStyle="hsl("+((360*j/180+t*70+3600)%360)+" 75% 65%)";ctx.lineWidth=8;ctx.arc(cx,cy,135,a,a+2*Math.PI/180+.01);ctx.stroke()}
-$("toytext").textContent="ψ=ρ exp(iθ). Uniform θ="+t.toFixed(2)+" rad is not spatial phase winding.";
-}else{
-const half=m==="spinor"?t/2:t, x=cx+135*Math.cos(half),y=cy-135*Math.sin(half);
-ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(x,y);ctx.strokeStyle="#9ce7d5";ctx.lineWidth=5;ctx.stroke();
-ctx.beginPath();ctx.arc(x,y,9,0,2*Math.PI);ctx.fillStyle="#eed08a";ctx.fill();
-$("toytext").textContent=m==="spinor"?"R=cos(θ/2)−Bsin(θ/2); 2π sends R to −R, but vectors transform identically.":"Active vector rotation; a rigid planar velocity has curl=2ω.";
-}}
-function classification(c){if(c.status==="OBSERVED_LOCAL")return "";if(c.status==="MODEL_CONSTRAINT")return " constraint";return ["OPEN","PROPOSED_MODEL","REPORTED_CONTESTED"].includes(c.status)?" open":""}
-function render(){
-const q=$("search").value.toLowerCase(),status=$("status").value,domain=$("domain").value,shown=state.claims.filter(x=>(!status||x.status===status)&&(!domain||x.domain===domain)&&(!q||[x.id,x.claim,x.description,x.limits,x.domain].join(" ").toLowerCase().includes(q)));
-$("counter").textContent=shown.length+" of "+state.claims.length+" claims";
-const root=$("records");root.replaceChildren();
-for(const x of shown){
-const card=document.createElement("article");card.className="card";
-const badge=document.createElement("span");badge.className="badge"+classification(x);badge.textContent=x.status.replaceAll("_"," ");card.append(badge);
-const h=document.createElement("h3");h.textContent=x.claim;card.append(h);
-const d=document.createElement("p");d.textContent=x.description;card.append(d);
-const b=document.createElement("p");b.textContent="Limit: "+x.limits;card.append(b);
-const s=document.createElement("div");s.className="sources";
-for(const id of x.source_ids){const src=state.sources.get(id);if(!src)continue;const a=document.createElement("a");a.textContent=id;a.title=src.title;a.href=src.url;a.target="_blank";a.rel="noopener noreferrer";s.append(a)}
-card.append(s);root.append(card);
-}}
-async function load(){
-try{const [a,b]=await Promise.all([fetch("./data/evidence.json"),fetch("./data/sources.json")]);
-if(!a.ok||!b.ok)throw Error("unable to fetch registry");
-const x=await a.json(),y=await b.json();state.claims=x.evidence;state.sources=new Map(y.sources.map(z=>[z.id,z]));
-for(const v of x.status_vocabulary){const o=document.createElement("option");o.value=v;o.textContent=v.replaceAll("_"," ");$("status").append(o)}
-for(const v of [...new Set(state.claims.map(z=>z.domain))].sort()){const o=document.createElement("option");o.value=v;o.textContent=v;$("domain").append(o)}
-$("numbers").replaceChildren();
-for(const [label,num] of [["Evidence entries",state.claims.length],["Source records",state.sources.size],["Observed local",state.claims.filter(z=>z.status==="OBSERVED_LOCAL").length],["Confirmed cosmic",0]]){
-const d=document.createElement("div"),b=document.createElement("strong");b.textContent=num;d.append(b,label);$("numbers").append(d)}
-render();
-}catch(e){$("counter").textContent="Could not read the evidence registry. Serve this folder using python -m http.server 8000 or enable GitHub Pages.";console.error(e)}
-}
-["mode","theta"].forEach(id=>$(id).addEventListener("input",draw));
-["search","status","domain"].forEach(id=>$(id).addEventListener("input",render));
-draw();load();
-</script>
-</body></html>
+<footer class="footer">
+ <p>© 2026 Monolithic LLC. Original laboratory code is MIT-licensed; research text has separately stated licensing. Cited third-party material remains with its authors.</p>
+ <p>View <a href="https://github.com/enuminous/Rotation/blob/main/data/evidence.json">evidence JSON</a> · <a href="https://github.com/enuminous/Rotation/blob/main/data/sources.json">sources</a> · <a href="https://github.com/enuminous/Rotation/actions">verification history</a>. To run this site locally: <code>python -m http.server 8000</code>.</p>
+</footer>
+</div>
+<noscript><p style="margin:2rem auto;max-width:50rem">JavaScript is required for interactive controls. The scientific sources and limitations are available in the linked Markdown and JSON files.</p></noscript>
+</body>
+</html>
