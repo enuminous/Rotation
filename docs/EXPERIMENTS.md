@@ -9,18 +9,17 @@
 | ROT-004 | [Covariant GR/Gödel audit](../research/ROT-004_COVARIANT_BRIDGE.md) | PASS for exact Gödel rotating/no-expansion metric and algebra; FAIL for a universally additive standalone ME-056 term; EFMW physical metric UNRESOLVED |
 | ROT-005 | [Causal expanding KO metric](../research/ROT-005_KOROTKII_OBUKHOV_BRIDGE.md) | PASS expanding+rotating+stable-causal geometry, Einstein tensor, weak-energy-condition *effective* source; FAIL for explicit natural ME-056 mapping; independent source UNRESOLVED |
 | ROT-006 | [Source-first matter audit](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) | PASS exact simple-spectrum test; FAIL for perfect fluid, one real/two real minimally coupled scalars, and pure Maxwell **as sole source of the fixed KO metric**; coupled field action UNRESOLVED |
+| ROT-007 | [Source-first Einstein–scalar–Maxwell test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) | PASS for exact negative mathematical witness; FAIL for the frozen real homogeneous scalar, V=Lambda=0 and Maxwell fields because the Einstein trace forces a negative real derivative square; richer actions and spatial scalar gradients UNRESOLVED |
+| ROT-008 | [Two-branch recursive no-go](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) | PASS source-pinned two independent proof orders, six nodes and two terminal contradictions; FAIL for frozen real phi=ct+dx coupled to source-free Maxwell; broader scalar profiles UNRESOLVED |
 
 All results are scoped to their mathematical hypotheses. A full Einstein-tensor computation does not produce an observed cosmology. A source defined by \(T=G/\kappa\) is not a microphysical model. A result about one metric does not rule out all rotating spacetimes.
-
-| ROT-007 | [Source-first Einstein–scalar–Maxwell test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) | PASS for exact negative mathematical witness; FAIL for the frozen real homogeneous scalar, V=Lambda=0 and Maxwell fields because the Einstein trace forces a negative real derivative square; richer actions and spatial scalar gradients UNRESOLVED |
-
-| ROT-008 | [Two-branch recursive no-go](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) | PASS source-pinned two independent proof orders, six nodes and two terminal contradictions; FAIL for frozen real phi=ct+dx coupled to source-free Maxwell; broader scalar profiles UNRESOLVED |
 
 ## Next proposal: ROT-009 — one new scalar-profile hypothesis (UNRUN)
 
 **ROT-008 is complete as a finite deterministic FAIL**, with [machine-captured execution ledger](../research/ROT-008_TERMINAL_LEDGER.json). Its source action and predictions were preserved during recursive search. Stop rules were triggered by exact mathematical contradictions, not exhausted iteration counts.
 
 A new separately scoped candidate uses the same minimal massless scalar plus Maxwell action and the same fixed metric, but allows \(\phi(t,x)=(101d/100)\log a(t)+dx\) with \(d^2=39850/30199\). This passes the **two necessary wave/Einstein-trace equations** only. ROT-009 must test all remaining Einstein, scalar and Maxwell equations without adding a potential, cosmological constant, or retrofitted source tensor. [Proposed protocol](../research/ROT-009_PROTOCOL.md).
+
 ## Independent baseline tracks still open
 
 ### ROT-001 — mathematical normalization and degeneracy
