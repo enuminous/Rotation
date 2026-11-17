@@ -19,7 +19,33 @@ This repository gathers **positive evidence, rigorous mathematical identities, m
 8. [BSA-R / Topher research bridge](docs/BSAR_BRIDGE.md) — shared vorticity mathematics, distinct open problems.
 9. [Test program](docs/EXPERIMENTS.md) and [open obligations](docs/OPEN_QUESTIONS.md).
 10. [Run the small mathematical laboratory](#reproduce-the-toy-laboratory).
-11. Open [the standalone evidence explorer](index.html) using a local HTTP server or GitHub Pages.
+11. Open [the interactive Rotation Lab and evidence explorer](index.html) using a local HTTP server or GitHub Pages.
+
+## Interactive Rotation Lab (GitHub Pages)
+
+The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-lab.js), and [`assets/rotation-lab.css`](assets/rotation-lab.css) form a **dependency-free browser laboratory**. Choose among six instrument modes:
+
+| Mode | Adjustable parameters | Live mathematical outputs |
+|---|---|---|
+| **Vector / SO(3)** | Angular speed, circle radius | Curl = 2ω, circulation and Stokes flux |
+| **Complex scalar / U(1)** | Integer winding, time-phase rate, nodal-core size | Phase winding, defect and scalar-domain caveats |
+| **Real scalar null** | Quadratic x/y curvatures, offset | An explicitly curl-free gradient counterexample |
+| **Clifford / Spin(3)** | Rotor start angle and speed | Half-angle rotor, 2π sign reversal, 4π restoration |
+| **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
+| **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
+
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 27 source records.
+
+Run locally:
+
+```bash
+python -m http.server 8000
+# open http://localhost:8000/
+```
+
+To host it, enable GitHub Pages manually (deploy from `main` / root). The page uses relative asset/data paths, so no CDN is required. **It is not a cosmological data fit, a Navier–Stokes solver, or evidence of universal rotation.**
+
+The [browser smoke test](tests/smoke_rotation_lab.cjs) exercises six modes, controls, CSV export and evidence filtering with a simulated DOM/canvas. GitHub Actions additionally checks JavaScript syntax and Python unit tests. A green CI run does **not** certify pixel-perfect browser rendering or physical conclusions.
 
 ## Critical separation of claims
 
