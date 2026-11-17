@@ -268,6 +268,13 @@
       "year": "2022",
       "url": "https://www.mdpi.com/2218-1997/8/3/151",
       "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "ROT008-REPORT",
+      "title": "Monolithic ROT-008 recursive exact Einstein trace / scalar wave no-go (two branches; six proof nodes)",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-008_RECURSIVE_TERMINAL_REPORT.md",
+      "type": "independent_source_level_research"
     }
   ]
 }

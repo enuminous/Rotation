@@ -553,6 +553,33 @@
         "EFMW-ME056"
       ],
       "limits": "Avoid retuning the failed ROT-007 action after seeing the trace obstruction. Even a sourced solution would not by itself verify universal cosmic rotation."
+    },
+    {
+      "id": "ROT-C16",
+      "domain": "scalar",
+      "claim": "For the fixed expanding rotating metric, no real constants c,d make the massless scalar phi=c*t+d*x satisfy both Box phi=0 and Einstein's scalar trace",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "The wave condition 101d−300c a(t)=0 for all t>-2 forces c=d=0, incompatible with Einstein trace d²−(100/101)c²a²=797/808. Two independent exact recursive proof orders terminate in contradiction.",
+      "source_ids": [
+        "ROT008-REPORT",
+        "ROT005-REPORT",
+        "ROT007-REPORT"
+      ],
+      "limits": "Exact source-first failure for the frozen real linear scalar and canonical Maxwell action; no no-go for general phi(t,x), scalar potentials, nonminimal theories, other metrics, or observed cosmic rotation."
+    },
+    {
+      "id": "ROT-E11",
+      "domain": "EFMW",
+      "claim": "An enlarged inhomogeneous scalar profile can satisfy the necessary wave and Einstein trace equations without providing a complete rotating source",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Outside the frozen ROT-008 class, phi= (101d/100) ln a(t) + d*x with d²=39850/30199 satisfies the scalar wave and Einstein trace identities of the fixed metric, but other Einstein/Maxwell equations remain untested.",
+      "source_ids": [
+        "ROT008-REPORT",
+        "ROT005-REPORT"
+      ],
+      "limits": "A necessary-condition witness is not a coupled Einstein–scalar–Maxwell solution or evidence of cosmic vorticity. Future ROT-009 requires a separately frozen scope and full tensor verification."
     }
   ]
 }
