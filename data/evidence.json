@@ -571,15 +571,56 @@
     {
       "id": "ROT-E11",
       "domain": "EFMW",
-      "claim": "An enlarged inhomogeneous scalar profile can satisfy the necessary wave and Einstein trace equations without providing a complete rotating source",
-      "status": "OPEN",
+      "claim": "The ROT-009 logarithmic scalar passes the wave and Einstein-trace gates but fails the full Einstein tensor equation",
+      "status": "ESTABLISHED_MATH",
       "relevance_to_global_rotation": "unresolved_bridge",
-      "description": "Outside the frozen ROT-008 class, phi= (101d/100) ln a(t) + d*x with d²=39850/30199 satisfies the scalar wave and Einstein trace identities of the fixed metric, but other Einstein/Maxwell equations remain untested.",
+      "description": "The ROT-008 boundary candidate phi=(101d/100) ln a + d*x with d²=39850/30199 satisfies Box phi=0 and the Einstein trace, but ROT-009 finds Gxx=-399/1616<0 and a strictly nonnegative source Txx for all real Maxwell amplitudes.",
       "source_ids": [
         "ROT008-REPORT",
-        "ROT005-REPORT"
+        "ROT005-REPORT",
+        "ROT009-REPORT"
       ],
-      "limits": "A necessary-condition witness is not a coupled Einstein–scalar–Maxwell solution or evidence of cosmic vorticity. Future ROT-009 requires a separately frozen scope and full tensor verification."
+      "limits": "An exact failure of one frozen metric, action and scalar/Maxwell ansatz; not a universal no-go for coupled fields, nonlinear sources or observed cosmic vorticity."
+    },
+    {
+      "id": "ROT-C17",
+      "domain": "cosmology",
+      "claim": "The fixed KO geometry requires negative Gxx, but the ROT-009 source-first scalar and Maxwell fields have nonnegative Txx",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Gxx=-399/1616, while Txx=(501/800)d²+(25/202)E(t)²/a²+(50/101)(E'(t)²+B'(t)²)≥0 for real fields and a>0. Hence Gxx=Txx cannot hold in the frozen class.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT009-REPORT"
+      ],
+      "limits": "Exact sign obstruction concerns the selected metric and canonical scalar+declared Maxwell potential; general electromagnetic configurations may exhibit tension and are not excluded."
+    },
+    {
+      "id": "ROT-E12",
+      "domain": "EFMW",
+      "claim": "ROT-009 terminates both frozen real logarithmic scalar branches by an exact spatial Einstein-component contradiction",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "For d²=39850/30199 the exact bound is Txx−Gxx≥259299/241592>0, independent of allowed real Maxwell amplitudes and throughout t>−2. The wave and trace pass but the complete source model fails.",
+      "source_ids": [
+        "ROT009-REPORT",
+        "ROT008-REPORT"
+      ],
+      "limits": "Two real sign branches of a single fixed profile were tested. Full Maxwell divergence equations were derived but need not be solved after the necessary Einstein equation fails. No cosmic observation."
+    },
+    {
+      "id": "ROT-E13",
+      "domain": "EFMW",
+      "claim": "An independently specified physical source matching all tensor components of the causal rotating KO geometry remains unknown",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "ROT-006–009 eliminate several minimal standalone and two fixed scalar+Maxwell ansatz classes. A novel source requires an independently fixed action supporting the necessary negative spatial stress, off-diagonal fluxes and full Einstein/matter dynamics.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT006-REPORT",
+        "ROT009-REPORT"
+      ],
+      "limits": "The failures do not imply general no-go for more complete sources, other rotating cosmologies or the observed universe."
     }
   ]
 }

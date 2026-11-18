@@ -275,6 +275,13 @@
       "year": "2026",
       "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-008_RECURSIVE_TERMINAL_REPORT.md",
       "type": "independent_source_level_research"
+    },
+    {
+      "id": "ROT009-REPORT",
+      "title": "Monolithic ROT-009 source-first logarithmic scalar–Maxwell full-tensor audit with exact spatial Einstein no-go",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-009_FULL_TENSOR_AUDIT.md",
+      "type": "independent_source_level_research"
     }
   ]
 }
