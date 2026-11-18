@@ -59,6 +59,9 @@ For the chosen KO metric, the [frozen homogeneous real scalar + Maxwell action](
 ## ROT-008 — linear scalar ansatz terminates in a bounded no-go
 
 The [exact recursive ROT-008 audit](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) shows that an ordinary massless real scalar \(\phi=ct+dx\), even combined with arbitrary standard Maxwell amplitudes of the frozen form, cannot satisfy both the scalar wave and Einstein trace equations for the selected KO geometry on its full time domain. This is a **restricted source-model failure**, not observational evidence about global cosmic rotation. A broader scalar profile can evade those two individual gates without supplying a demonstrated complete Einstein–Maxwell–scalar solution.
+## ROT-009 — an exact sourced-model failure beyond wave and trace
+
+[ROT-009](../research/ROT-009_FULL_TENSOR_AUDIT.md) independently reconstructed the full Einstein and scalar–Maxwell stress tensors for the frozen logarithmic candidate. Although its scalar wave equation and Einstein trace hold, the \(xx\) Einstein component has a strictly nonzero sign-definite residual. The fixed source candidate therefore **fails**. This is a mathematical model-selection result about one chosen metric and source, **not** a new constraint from CMB/galaxy observations or proof against every rotating spacetime.
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

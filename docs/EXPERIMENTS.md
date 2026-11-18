@@ -1,6 +1,6 @@
 # Rotation experimental program — freeze → predict → test → ablate → reproduce
 
-**Updated 2026-11-17.** ROT-004 through ROT-008 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
+**Updated 2026-11-17.** ROT-004 through ROT-009 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
 
 ## Completed bounded mathematical investigations
 
@@ -11,15 +11,17 @@
 | ROT-006 | [Source-first matter audit](../research/ROT-006_SOURCE_FIRST_MATTER_AUDIT.md) | PASS exact simple-spectrum test; FAIL for perfect fluid, one real/two real minimally coupled scalars, and pure Maxwell **as sole source of the fixed KO metric**; coupled field action UNRESOLVED |
 | ROT-007 | [Source-first Einstein–scalar–Maxwell test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) | PASS for exact negative mathematical witness; FAIL for the frozen real homogeneous scalar, V=Lambda=0 and Maxwell fields because the Einstein trace forces a negative real derivative square; richer actions and spatial scalar gradients UNRESOLVED |
 | ROT-008 | [Two-branch recursive no-go](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) | PASS source-pinned two independent proof orders, six nodes and two terminal contradictions; FAIL for frozen real phi=ct+dx coupled to source-free Maxwell; broader scalar profiles UNRESOLVED |
+| ROT-009 | [Source-first logarithmic scalar and full-tensor audit](../research/ROT-009_FULL_TENSOR_AUDIT.md) | PASS wave and Einstein trace, full 10-component residual construction and Maxwell stress identities; FAIL for the frozen complete source because Gxx<0 while real scalar/Maxwell Txx≥0 on both sign branches; other physical matter actions UNRESOLVED |
 
 All results are scoped to their mathematical hypotheses. A full Einstein-tensor computation does not produce an observed cosmology. A source defined by \(T=G/\kappa\) is not a microphysical model. A result about one metric does not rule out all rotating spacetimes.
 
-## Next proposal: ROT-009 — one new scalar-profile hypothesis (UNRUN)
+## ROT-009 completed: one exact spatial Einstein obstruction
 
-**ROT-008 is complete as a finite deterministic FAIL**, with [machine-captured execution ledger](../research/ROT-008_TERMINAL_LEDGER.json). Its source action and predictions were preserved during recursive search. Stop rules were triggered by exact mathematical contradictions, not exhausted iteration counts.
+ROT-009 tested the [previously frozen logarithmic scalar candidate](../research/ROT-009_PROTOCOL.md) and verified the source-free scalar wave equation and Einstein trace. The all-component tensor construction then revealed **Gxx=−399/1616<0 versus nonnegative scalar+Maxwell Txx**. Every permitted real sign branch fails with a strictly positive mismatch; see the [report](../research/ROT-009_FULL_TENSOR_AUDIT.md) and [actual CI terminal ledger](../research/ROT-009_TERMINAL_LEDGER.json). This is an *early-stop proof of impossibility* under the frozen action, not a claim that all Maxwell EOM have a simultaneously solved source.
 
-A new separately scoped candidate uses the same minimal massless scalar plus Maxwell action and the same fixed metric, but allows \(\phi(t,x)=(101d/100)\log a(t)+dx\) with \(d^2=39850/30199\). This passes the **two necessary wave/Einstein-trace equations** only. ROT-009 must test all remaining Einstein, scalar and Maxwell equations without adding a potential, cosmological constant, or retrofitted source tensor. [Proposed protocol](../research/ROT-009_PROTOCOL.md).
+### Next gate — a new independently justified physical source (not selected or run)
 
+Do **not** repair the negative result by adjusting a potential or metric after seeing the obstruction. The next source must be specified in a separate protocol before calculation, with an independently motivated stress that can support the needed directional tension and flux while respecting energy conditions, causality and full matter dynamics. Observational validation remains blocked until a source and uniquely identifiable prediction exist.
 ## Independent baseline tracks still open
 
 ### ROT-001 — mathematical normalization and degeneracy
@@ -57,6 +59,7 @@ Compare an ordinary real scalar, ordinary complex field, scalar with U(1) gauge 
 | One- or two-scalar *sole* source for frozen ROT-005 | **FAIL (ROT-006)** | Exact tensor spectrum; limited no-go |
 | Homogeneous real scalar plus standard Maxwell under frozen minimal action | **FAIL (ROT-007)** | Einstein trace contradiction for this fixed KO metric |
 | Linear real scalar in time and space plus Maxwell | **FAIL (ROT-008)** | Wave and Einstein trace cannot both hold for constants c,d |
+| Logarithmic real scalar plus the frozen Maxwell potential | **FAIL (ROT-009)** | Wave/trace PASS; negative Einstein Gxx conflicts with nonnegative Txx for both signs of d |
 | Independently derived viable EFMW matter source | **UNRESOLVED** | Full field action and exact stress tensor |
 | EFMW-unique identifiable rotational observable | **UNRESOLVED** | Prediction beyond curvature/ordinary models |
 | Current Planck-compatible astronomical fit | **UNRESOLVED** | Reproducible likelihood and constraints |

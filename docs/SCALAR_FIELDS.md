@@ -66,3 +66,7 @@ These results do **not** rule out scalar–vector couplings, nonminimal curvatur
 [ROT-008](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) freezes the massless action and scalar \(\phi=ct+dx\). The scalar wave equation forces \(c=d=0\), whereas the Einstein trace cannot hold for those values. This proof is exact and the two recursive proof orders terminate at contradiction.
 
 **Boundary control:** changing the scalar to \(\phi(t,x)=(101d/100)\ln a(t)+dx\) with \(d^2=39850/30199\) satisfies these *two necessary equations*, but no other Einstein or Maxwell equation has been proven for the enlarged class. Thus the linear ansatz no-go does not establish a scalar-field no-go in general.
+
+## I. ROT-009 — passing the scalar wave and trace is not enough
+
+In the [ROT-009 source-first full-tensor test](../research/ROT-009_FULL_TENSOR_AUDIT.md), the frozen log-time plus linear-space scalar \(\phi=(101d/100)\ln a+dx\), \(d^2=39850/30199\), passes \(\Box\phi=0\) and the Einstein trace. But the fixed KO spacetime needs \(G_{xx}<0\), whereas the scalar gives \(T^{(\phi)}_{xx}=501d^2/800>0\) and the specified ordinary Maxwell potential adds only nonnegative squares to that component. **No source solution exists for these assumptions.** This does not ban general spatial scalars, other Maxwell field components, nonminimal actions, or new physical sources.

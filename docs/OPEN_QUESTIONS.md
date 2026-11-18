@@ -1,6 +1,6 @@
 # Open obligations and limits — the work required before stronger conclusions
 
-Status as of **2026-11-17**. The obligations below concern the physical EFMW theory. ROT-004–008 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
+Status as of **2026-11-17**. The obligations below concern the physical EFMW theory. ROT-004–009 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
 
 | ID | Obligation | Why it matters | Proposed test/owner role |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Status as of **2026-11-17**. The obligations below concern the physical EFMW the
 | ROT-O15 | Reconcile ME-056 with the full 1+3 Einstein constraint | ROT-004 derives a necessary shear/curvature bridge; no new metric | Source-pinned rotating metric and physical congruence |
 | ROT-O16 | Test an expanding rotating metric in ROT-005 | Gödel proves rotation without expansion; cannot stand in for an expanding cosmology | Einstein tensor, matter conservation, kinematics and null limit |
 
-| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006 rules out standalone minimal matter; ROT-007 also excludes its specified homogeneous scalar+Maxwell candidate | ROT-009 logarithmic scalar candidate with full Einstein and matter equations |
+| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006–009 exclude several frozen minimal scalar/Maxwell constructions, including full ROT-009 sign obstruction | Select and derive a physically motivated new action before testing |
 | ROT-O18 | Resolve ME-056 parameter degeneracy in an expanding, rotating metric | Exact H² mismatch under natural identification, yet scalar fit by retuned k | Independent curvature/vorticity observable |
 | ROT-O19 | Test real-data viability of a causally admissible rotating cosmology | Mathematical source and WEC do not establish CMB compatibility | Model-dependent likelihood and sealed data controls |
 
@@ -31,7 +31,9 @@ Status as of **2026-11-17**. The obligations below concern the physical EFMW the
 
 | ROT-O22 | Test an inhomogeneous scalar without changing the ROT-007 action | The trace contradiction depends on a timelike-only scalar gradient; a spacelike gradient can change sign | ROT-008 linear ansatz exact FAIL; test broader ROT-009 separately |
 
-| ROT-O23 | Test a logarithmic time-dependent scalar with spatial gradient under the same action | ROT-008 proves only the linear class impossible; an explicit logarithmic candidate satisfies wave and Einstein trace alone | ROT-009 test all 10 Einstein components plus scalar and Maxwell equations |
+| ROT-O23 | Test the logarithmic spatial scalar against the full Einstein source | ROT-009 calculated the ten Einstein component residuals and demonstrated an exact contradiction in Gxx=Txx | **CLOSED / FAIL** for the frozen source; retain source-pinned evidence |
+
+| ROT-O24 | Independently derive matter fields capable of the required negative directional stress and nonzero flux | The effective KO tensor has Gxx<0, while ROT-009's fixed real scalar and Maxwell potential yield Txx≥0 | Predefine a new physical action and test full field equations; avoid post hoc metric matching |
 
 ## First bounded sequence
 

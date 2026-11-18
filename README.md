@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 39 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 40 source records.
 
 Run locally:
 
@@ -87,7 +87,15 @@ The previously frozen action used a real homogeneous massless scalar `phi(t)`, a
 
 With the fixed massless scalar–Maxwell action and a real linear scalar \(\phi(t,x)=ct+dx\), the necessary scalar wave equation forces \(c=d=0\), while the Einstein tensor trace requires a nonzero spatial gradient. The computation explores **two independent proof orders, six nodes, two exact terminal contradictions**, then stops; the mathematical model **FAILS** under those assumptions.
 
-**Crucial boundary:** A broader profile \(\phi(t,x)=\frac{101d}{100}\ln a(t)+dx\) with \(d^2=39850/30199\) can satisfy **only the wave and Einstein trace requirements**. It has **not** passed the other Einstein/Maxwell equations and is **not** a sourced rotating cosmology. A separately frozen ROT-009 protocol would be needed. No inference of observed cosmic rotation follows.
+**Crucial boundary:** A broader profile \(\phi(t,x)=\frac{101d}{100}\ln a(t)+dx\) with \(d^2=39850/30199\) can satisfy **only the wave and Einstein trace requirements**. It had **not** passed the other Einstein/Maxwell equations at ROT-008. ROT-009 has since tested its full Einstein stress and found an exact spatial contradiction; it is **not** a sourced rotating cosmology. No inference of observed cosmic rotation follows.
+
+## ROT-009 — Logarithmic scalar passes two necessary checks but fails the full Einstein source
+
+**Published:** [ROT-009 source-first full-tensor audit](research/ROT-009_FULL_TENSOR_AUDIT.md) · [source code](research/rot009_source_first_full_tensor.py) · [actual CI machine ledger](research/ROT-009_TERMINAL_LEDGER.json) · [frozen prior protocol](research/ROT-009_PROTOCOL.md).
+
+For the same causal expanding and rotating KO metric, the previously frozen real logarithmic scalar \(\phi=(101d/100)\ln a+dx\) with \(d^2=39850/30199\) satisfies the scalar wave and Einstein-trace tests. However the exact geometric component \(G_{xx}=-399/1616<0\) conflicts with the proposed scalar and standard Maxwell stress \(T_{xx}=501d^2/800+25E^2/(202a^2)+50(E'^2+B'^2)/101\ge0\). The positive mismatch \(T_{xx}-G_{xx}\ge259299/241592\) holds for all real amplitudes and both signs of \(d\), for every \(t>-2\). **FAIL for this particular source ansatz; full model impossible.**
+
+Ten Einstein residual components and the Maxwell divergence equations were constructed, but the latter need not be solved once a necessary Einstein component is impossible. The conclusion does not exclude other electromagnetic field configurations, scalar potentials, nonminimal coupling, richer physical source actions or rotating universes in general. **No cosmic rotation detection** is claimed.
 
 ## Critical separation of claims
 
