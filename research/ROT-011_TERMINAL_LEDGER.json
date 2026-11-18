@@ -1,0 +1,69 @@
+{
+  "provenance": "Captured from actual successful GitHub Actions step stdout, not created from expected results",
+  "repository": "enuminous/Rotation",
+  "source_sha": "0e8e78af8d1f30291e19cf4e5138b49c437c1db5",
+  "workflow_run_id": 44334458697,
+  "job_id": 134907248301,
+  "run_url": "https://github.com/enuminous/Rotation/actions/runs/44334458697",
+  "experiment": "ROT-011",
+  "verification_status": "PASS_EXACT_SEC_SOURCE_NO_GO",
+  "candidate_verdict": "FAIL_CANONICAL_EINSTEIN_PROCA_MAXWELL_MASSLESS_SCALAR_SOURCE_CLASS",
+  "metric": "ROT-005 exact causal expanding/rotating Korotkii-Obukhov",
+  "Lambda": "0",
+  "kappa": "1",
+  "physical_domain": "t>-2, a(t)=1+t/2>0",
+  "matter_action": "standard positive kinetic Maxwell, real Proca with mu²>=0, massless real canonical scalar, any finite nonnegative sums",
+  "observer_orthonormal_components": [
+    "1",
+    "0",
+    "1/10",
+    "0"
+  ],
+  "observer_norm_squared": "-99/100",
+  "Ricci_orthonormal_times_a2": [
+    [
+      "5/808",
+      "1/404",
+      "-sqrt(101)/202",
+      "0"
+    ],
+    [
+      "1/404",
+      "199/808",
+      "-sqrt(101)/404",
+      "0"
+    ],
+    [
+      "-sqrt(101)/202",
+      "-sqrt(101)/404",
+      "203/808",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "50/101"
+    ]
+  ],
+  "Ricci_observer_contraction": "(703/80800 - sqrt(101)/1010)/a**2",
+  "Ricci_observer_a2_coefficient": "703/80800 - sqrt(101)/1010",
+  "strict_negative_witness": "703^2=494209 < 80^2*101=646400; (703-80sqrt(101))/(80800 a^2)<0",
+  "Maxwell_six_component_positive_control": "PASS EXACT SUM OF SIX SQUARES IN BOOSTED ORTHONORMAL FRAME",
+  "Proca_trace_reverse_identity": "PASS: T_proca - 1/2 T_proca_trace eta = T_Maxwell + mu² A_a A_b",
+  "scalar_trace_reverse_identity": "PASS: massless scalar contributes (grad_a phi)(grad_b phi)",
+  "SEC_source_observer": "nonnegative for every real F, A, grad(phi) and mu²>=0",
+  "source_branches": [
+    {
+      "source_class": "ordinary real Proca fields (mu²>=0, positive kinetic)",
+      "verdict": "TERMINAL_FAIL_SEC"
+    },
+    {
+      "source_class": "any finite sum of ordinary Maxwell and massless real scalar fields, plus real Proca",
+      "verdict": "TERMINAL_FAIL_SEC"
+    }
+  ],
+  "terminal_fail_branches": 2,
+  "termination": "INVARIANT_STRONG_ENERGY_CONDITION_CONTRADICTION",
+  "limits": "Exact no-go for this KO metric and only standard SEC-satisfying matter with Λ=0. Positive Λ, scalar potentials, nonminimal/higher-derivative source, exotic fluids or other metrics can violate SEC. Cosmic rotation observations and EFMW-specific predictions remain unresolved."
+}
