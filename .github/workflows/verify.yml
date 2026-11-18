@@ -54,3 +54,5 @@ jobs:
         run: python research/rot007_einstein_scalar_maxwell.py
       - name: ROT-008 recursively prune fixed scalar branches to termination
         run: python research/rot008_recursive_search.py
+      - name: ROT-009 reject both fixed logarithmic scalar sign branches by exact Einstein xx
+        run: python research/rot009_source_first_full_tensor.py
