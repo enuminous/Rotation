@@ -1,0 +1,125 @@
+{
+  "provenance": "Literal CI stdout captured from successful workflow job; not reconstructed from an expected template",
+  "repo": "enuminous/Rotation",
+  "source_sha": "a40b5cd4b9515af880255efd83f1412b2ff56f44",
+  "workflow_run_id": 44216731940,
+  "job_id": 134508339252,
+  "workflow_url": "https://github.com/enuminous/Rotation/actions/runs/44216731940",
+  "preserved_source_path": "research/rot009_source_first_full_tensor.py",
+  "experiment": "ROT-009",
+  "candidate_verdict": "FAIL_FROZEN_LOG_SCALAR_PLUS_MAXWELL",
+  "verification_status": "PASS_EXACT_FULL_TENSOR_CONSTRUCTION_AND_BOUNDED_NO_GO",
+  "source_protocol": "research/ROT-009_PROTOCOL.md",
+  "domain": "t>-2, a(t)=1+t/2>0; scalar real; E(t),B(t) real",
+  "fixed_d_squared": "39850/30199",
+  "wave_equation": "0",
+  "full_einstein_symmetric_components_constructed": 10,
+  "Einstein_trace_minus_scalar_trace_at_d_squared_fixed": "0",
+  "Maxwell_stress_trace": "0",
+  "Maxwell_geometric_Bianchi_dF": "0 for every independent triple",
+  "Einstein_G_xx": "-399/1616",
+  "scalar_T_xx": "501*d**2/800",
+  "Maxwell_T_xx": "50*Derivative(B(t), t)**2/101 + 50*Derivative(E(t), t)**2/101 + 25*E(t)**2/(202*(t/2 + 1)**2)",
+  "xx_residual_G_minus_T": "-501*d**2/800 - 50*Derivative(B(t), t)**2/101 - 50*Derivative(E(t), t)**2/101 - 399/1616 - 25*E(t)**2/(202*(t/2 + 1)**2)",
+  "strict_lower_bound_of_Txx_minus_Gxx": "259299/241592",
+  "allowed_real_branches": 2,
+  "terminal_fail_branches": 2,
+  "branch_ledger": [
+    {
+      "sign_of_d": "positive",
+      "d": "5*sqrt(48137206)/30199",
+      "wave_equation": "PASS",
+      "Einstein_trace": "PASS",
+      "xx_Einstein_equation": "TERMINAL_FAIL",
+      "exact_gap_Gxx_minus_Txx": "-(119600*t**2*Derivative(B(t), t)**2 + 119600*t**2*Derivative(E(t), t)**2 + 259299*t**2 + 478400*t*Derivative(B(t), t)**2 + 478400*t*Derivative(E(t), t)**2 + 1037196*t + 119600*E(t)**2 + 478400*Derivative(B(t), t)**2 + 478400*Derivative(E(t), t)**2 + 1037196)/(241592*(t + 2)**2)",
+      "lower_bound_of_Txx_minus_Gxx": "259299/241592",
+      "proof": "Real Maxwell jets give nonnegative squares, so gap is <0 for a>0"
+    },
+    {
+      "sign_of_d": "negative",
+      "d": "-5*sqrt(48137206)/30199",
+      "wave_equation": "PASS",
+      "Einstein_trace": "PASS",
+      "xx_Einstein_equation": "TERMINAL_FAIL",
+      "exact_gap_Gxx_minus_Txx": "-(119600*t**2*Derivative(B(t), t)**2 + 119600*t**2*Derivative(E(t), t)**2 + 259299*t**2 + 478400*t*Derivative(B(t), t)**2 + 478400*t*Derivative(E(t), t)**2 + 1037196*t + 119600*E(t)**2 + 478400*Derivative(B(t), t)**2 + 478400*Derivative(E(t), t)**2 + 1037196)/(241592*(t + 2)**2)",
+      "lower_bound_of_Txx_minus_Gxx": "259299/241592",
+      "proof": "Real Maxwell jets give nonnegative squares, so gap is <0 for a>0"
+    }
+  ],
+  "sample_controls": [
+    {
+      "a": "1/2",
+      "E": 0,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "259299/241592"
+    },
+    {
+      "a": "1/2",
+      "E": 1,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "378899/241592"
+    },
+    {
+      "a": "1/2",
+      "E": 0,
+      "Eprime": 1,
+      "Bprime": 1,
+      "positive_gap_Txx_minus_Gxx": "498499/241592"
+    },
+    {
+      "a": "1",
+      "E": 0,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "259299/241592"
+    },
+    {
+      "a": "1",
+      "E": 1,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "289199/241592"
+    },
+    {
+      "a": "1",
+      "E": 0,
+      "Eprime": 1,
+      "Bprime": 1,
+      "positive_gap_Txx_minus_Gxx": "498499/241592"
+    },
+    {
+      "a": "2",
+      "E": 0,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "259299/241592"
+    },
+    {
+      "a": "2",
+      "E": 1,
+      "Eprime": 0,
+      "Bprime": 0,
+      "positive_gap_Txx_minus_Gxx": "133387/120796"
+    },
+    {
+      "a": "2",
+      "E": 0,
+      "Eprime": 1,
+      "Bprime": 1,
+      "positive_gap_Txx_minus_Gxx": "498499/241592"
+    }
+  ],
+  "Maxwell_dynamic_equations": {
+    "derived_divergence_components": [
+      "-20*E(t)/(101*(t + 2)*(t**2 + 4*t + 4))",
+      "40*Derivative(E(t), t)/(101*(t**3 + 6*t**2 + 12*t + 8))",
+      "400*(-t*Derivative(E(t), (t, 2)) - Derivative(E(t), t) - 2*Derivative(E(t), (t, 2)))*exp(-x/2)/(101*(t**3 + 6*t**2 + 12*t + 8))",
+      "400*(-t*Derivative(B(t), (t, 2)) - Derivative(B(t), t) - 2*Derivative(B(t), (t, 2)))/(101*(t**3 + 6*t**2 + 12*t + 8))"
+    ],
+    "solved": "NO: impossible necessary Einstein xx component makes full solution nonexistent"
+  },
+  "termination": "PROVEN_UNSAT_FOR_TWO_FROZEN_REAL_SIGN_BRANCHES",
+  "scope": "Only frozen KO metric, log scalar with fixed d², and canonical Maxwell potential. Does not exclude other matter, potentials, nonminimal couplings, scalar profiles, metrics or observed cosmic rotation."
+}
