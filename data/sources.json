@@ -282,6 +282,20 @@
       "year": "2026",
       "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-009_FULL_TENSOR_AUDIT.md",
       "type": "independent_source_level_research"
+    },
+    {
+      "id": "RAINICH-BERGQVIST-2002",
+      "title": "Bergqvist and Höglund (2002), Algebraic Rainich theory and antisymmetrization in higher dimensions, Classical and Quantum Gravity 19, 3341",
+      "year": "2002",
+      "url": "https://doi.org/10.1088/0264-9381/19/12/316",
+      "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "ROT010-REPORT",
+      "title": "Monolithic ROT-010 exact unrestricted Maxwell 2-form Rainich no-go with six-component and null-field controls",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md",
+      "type": "independent_source_level_research"
     }
   ]
 }

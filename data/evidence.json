@@ -614,13 +614,55 @@
       "claim": "An independently specified physical source matching all tensor components of the causal rotating KO geometry remains unknown",
       "status": "OPEN",
       "relevance_to_global_rotation": "unresolved_bridge",
-      "description": "ROT-006–009 eliminate several minimal standalone and two fixed scalar+Maxwell ansatz classes. A novel source requires an independently fixed action supporting the necessary negative spatial stress, off-diagonal fluxes and full Einstein/matter dynamics.",
+      "description": "ROT-006–010 eliminate several minimal standalone and frozen scalar+Maxwell source classes, including all ordinary Maxwell 2-forms with the one fixed logarithmic scalar. An independent physical action must support required anisotropic stress and flux, and satisfy complete Einstein/matter dynamics.",
       "source_ids": [
         "ROT005-REPORT",
         "ROT006-REPORT",
-        "ROT009-REPORT"
+        "ROT009-REPORT",
+        "ROT010-REPORT"
       ],
       "limits": "The failures do not imply general no-go for more complete sources, other rotating cosmologies or the observed universe."
+    },
+    {
+      "id": "ROT-C18",
+      "domain": "cosmology",
+      "claim": "The required Maxwell stress for the fixed KO geometry and ROT-009 scalar violates the algebraic Rainich squared-tensor identity",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "With S=G−T_phi and M=g^{-1}S, tr M=0, but Q=M²−I tr(M²)/4 has nonzero orthonormal component a⁴ Q^hat0_hat1=−160795/326432 for all a>0; no real ordinary Maxwell 2-form can equal S at any point.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT009-REPORT",
+        "RAINICH-BERGQVIST-2002",
+        "ROT010-REPORT"
+      ],
+      "limits": "Necessary algebraic Maxwell-stress identity fails for this exact metric and logarithmic scalar; the scalar/action and metric are still fixed, and no other matter theory or cosmic observation is excluded."
+    },
+    {
+      "id": "ROT-C19",
+      "domain": "scalar",
+      "claim": "Six symbolic Maxwell field components and a null electromagnetic wave obey the same Rainich identity as independent positive controls",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "ROT-010 derived ordinary Maxwell stress from six arbitrary antisymmetric Lorentz-frame components and symbolically verified trace-free and squared-tensor Rainich identities; separately checked a nonzero null 2-form.",
+      "source_ids": [
+        "RAINICH-BERGQVIST-2002",
+        "ROT010-REPORT"
+      ],
+      "limits": "This validates the algebraic criterion in the chosen tensor conventions, not the differential Maxwell equations or a new physical measurement."
+    },
+    {
+      "id": "ROT-E14",
+      "domain": "EFMW",
+      "claim": "ROT-010 closes the previously open Maxwell-potential freedom for the fixed source: no standard real Maxwell 2-form can complete ROT-009's scalar stress",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "Both signs of the fixed d²=39850/30199 scalar fail an invariant Maxwell squared-tensor necessary condition for arbitrary local F. Relaxing the restricted ROT-009 potential cannot rescue the specific massless scalar+ordinary Maxwell model.",
+      "source_ids": [
+        "ROT009-REPORT",
+        "ROT010-REPORT"
+      ],
+      "limits": "Does not exclude changing the scalar profile or matter action, nonlinear electrodynamics, extra fluid, higher derivatives, another metric, or measured universal rotation."
     }
   ]
 }
