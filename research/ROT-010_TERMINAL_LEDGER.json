@@ -1,0 +1,45 @@
+{
+  "provenance": "Captured from actual successful GitHub Actions ROT-010 job stdout, not synthesized from expected equations",
+  "repo": "enuminous/Rotation",
+  "source_sha": "7243426c29d6977e6ac48713c022c382b5a27151",
+  "run_id": 44332385490,
+  "job_id": 134899948296,
+  "run_url": "https://github.com/enuminous/Rotation/actions/runs/44332385490",
+  "experiment": "ROT-010",
+  "source": "research/ROT-010_PROTOCOL.md",
+  "verification_status": "PASS_EXACT_RAINICH_TENSOR_NO_GO",
+  "candidate_verdict": "FAIL_LOG_SCALAR_WITH_ARBITRARY_ORDINARY_REAL_MAXWELL_2_FORM",
+  "metric": "fixed ROT-005 Korotkii-Obukhov",
+  "physical_domain": "t>-2, a(t)=1+t/2>0",
+  "scalar": "phi=(101d/100)*ln(a)+d*x; d^2=39850/30199",
+  "Maxwell_scope": "ALL six real algebraic components, no restrictive potential/coordinate ansatz",
+  "source_tensor": "S_ab=G_ab-T_canonical_scalar_ab",
+  "source_trace": "0",
+  "Rainich_needed": "(g^{-1}S)^2 - I*tr((g^{-1}S)^2)/4 = 0",
+  "exact_nonzero_certificate": "a^4 * Q^0_1 = -160795/326432",
+  "real_scalar_sign_branches": [
+    {
+      "d_sign": "positive",
+      "d": "5*sqrt(48137206)/30199",
+      "scalar_gradient_squared": "797/(202*(t + 2)**2)",
+      "candidate_Maxwell_trace": "0",
+      "Rainich_a4_Q_0_1": "-160795/326432",
+      "Rainich_Q_0_1": "-160795/(20402*(t + 2)**4)",
+      "result": "TERMINAL_FAIL_NO_MAXWELL_2_FORM"
+    },
+    {
+      "d_sign": "negative",
+      "d": "-5*sqrt(48137206)/30199",
+      "scalar_gradient_squared": "797/(202*(t + 2)**2)",
+      "candidate_Maxwell_trace": "0",
+      "Rainich_a4_Q_0_1": "-160795/326432",
+      "Rainich_Q_0_1": "-160795/(20402*(t + 2)**4)",
+      "result": "TERMINAL_FAIL_NO_MAXWELL_2_FORM"
+    }
+  ],
+  "null_Maxwell_positive_control": "PASS",
+  "six_independent_Maxwell_components_symbolic_identity": "PASS",
+  "termination": "TWO_SCALAR_SIGNS_EXHAUSTED_NO_ALGEBRAIC_MAXWELL_STRESS",
+  "Maxwell_field_equations": "NOT REQUIRED: algebraic necessary condition fails before differential equations",
+  "scope": "Only this frozen scalar + standard massless linear Maxwell action on fixed geometry. Other scalars, nonlinear EM, nonminimal source, fluids, potentials, metrics or observed cosmic rotation UNRESOLVED."
+}
