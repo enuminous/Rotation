@@ -296,6 +296,20 @@
       "year": "2026",
       "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md",
       "type": "independent_source_level_research"
+    },
+    {
+      "id": "MAEDA-MARTINEZ-2020",
+      "title": "Maeda and Martinez, Energy Conditions in Arbitrary Dimensions, PTEP 043E02, canonical Proca stress and SEC",
+      "year": "2020",
+      "url": "https://doi.org/10.1093/ptep/ptaa009",
+      "type": "peer_reviewed_theoretical_source"
+    },
+    {
+      "id": "ROT011-REPORT",
+      "title": "Monolithic ROT-011 exact strong energy condition exclusion of canonical Einstein-Proca Maxwell massless scalar source class",
+      "year": "2026",
+      "url": "https://github.com/enuminous/Rotation/blob/main/research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md",
+      "type": "independent_source_level_research"
     }
   ]
 }

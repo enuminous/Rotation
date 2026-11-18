@@ -614,12 +614,13 @@
       "claim": "An independently specified physical source matching all tensor components of the causal rotating KO geometry remains unknown",
       "status": "OPEN",
       "relevance_to_global_rotation": "unresolved_bridge",
-      "description": "ROT-006–010 eliminate several minimal standalone and frozen scalar+Maxwell source classes, including all ordinary Maxwell 2-forms with the one fixed logarithmic scalar. An independent physical action must support required anisotropic stress and flux, and satisfy complete Einstein/matter dynamics.",
+      "description": "ROT-006–011 rule out several frozen minimal source models; ROT-011 gives a metric-wide SEC obstruction to any finite positive-kinetic massless scalar, Maxwell and ordinary real Proca combination for Λ=0. Independently justified SEC-violating sources or alternative metrics are not supplied.",
       "source_ids": [
         "ROT005-REPORT",
         "ROT006-REPORT",
         "ROT009-REPORT",
-        "ROT010-REPORT"
+        "ROT010-REPORT",
+        "ROT011-REPORT"
       ],
       "limits": "The failures do not imply general no-go for more complete sources, other rotating cosmologies or the observed universe."
     },
@@ -663,6 +664,59 @@
         "ROT010-REPORT"
       ],
       "limits": "Does not exclude changing the scalar profile or matter action, nonlinear electrodynamics, extra fluid, higher derivatives, another metric, or measured universal rotation."
+    },
+    {
+      "id": "ROT-C20",
+      "domain": "cosmology",
+      "claim": "The fixed rotating expanding KO metric violates the strong energy condition for a specific timelike observer",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "For orthonormal v=(1,0,1/10,0), v²=−99/100 and a² Ricci_ab v^a v^b=(703−80 sqrt(101))/80800<0. Strict exact proof: 703²=494209<646400=80²*101. WEC may still hold.",
+      "source_ids": [
+        "ROT005-REPORT",
+        "ROT011-REPORT"
+      ],
+      "limits": "SEC violation describes this historical exact geometry and observer; not the measured universe, not a conflict with the earlier effective-source WEC result, and not proof all rotating geometries violate SEC."
+    },
+    {
+      "id": "ROT-C21",
+      "domain": "cosmology",
+      "claim": "Ordinary positive-kinetic Proca, Maxwell and massless real scalar sources satisfy the strong energy condition",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "neutral",
+      "description": "For real Proca μ²≥0, trace-reversed stress equals Maxwell stress plus μ² A_a A_b; for massless real canonical scalar, trace-reversed stress equals gradient_a φ gradient_b φ. Every timelike contraction is nonnegative, including finite positive sums.",
+      "source_ids": [
+        "MAEDA-MARTINEZ-2020",
+        "ROT011-REPORT"
+      ],
+      "limits": "Requires standard positive kinetic signs, nonnegative real Proca mass squares, no scalar potential, and no nonminimal interactions; SEC can be violated by other source sectors."
+    },
+    {
+      "id": "ROT-E15",
+      "domain": "EFMW",
+      "claim": "For the frozen metric with zero cosmological constant, no finite combination of ordinary positive-kinetic real Proca, Maxwell and massless canonical real scalars can source Einstein gravity",
+      "status": "ESTABLISHED_MATH",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "The fixed KO Ricci violates SEC along a timelike observer, whereas every allowed canonical matter sector obeys SEC. This necessary Einstein mismatch excludes arbitrary field profiles, not merely one potential ansatz; six-component Maxwell and four-component Proca/gradient symbolic controls pass.",
+      "source_ids": [
+        "ROT011-REPORT",
+        "MAEDA-MARTINEZ-2020",
+        "ROT005-REPORT"
+      ],
+      "limits": "Class no-go is conditional on one KO geometry, Λ=0 and only the stated SEC-satisfying sectors; positive Λ, potential terms, nonminimal/higher-derivative interactions, imperfect fluids and alternate metrics remain untested."
+    },
+    {
+      "id": "ROT-E16",
+      "domain": "EFMW",
+      "claim": "A physical matter action or metric choice avoiding the fixed KO SEC obstruction remains unresolved",
+      "status": "OPEN",
+      "relevance_to_global_rotation": "unresolved_bridge",
+      "description": "ROT-011 supplies an invariant source-class stopping gate. A new model needs independent motivation and predeclared cosmological constant, scalar potential, causal imperfect matter or alternative rotating spacetime, followed by complete Einstein/matter equations and an identifiable observable.",
+      "source_ids": [
+        "ROT011-REPORT",
+        "ROT010-REPORT"
+      ],
+      "limits": "No observed cosmic rotation or EFMW-specific novel physical coupling is established. Do not retrofit source corrections to make an existing metric fit."
     }
   ]
 }
