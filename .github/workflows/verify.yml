@@ -58,3 +58,5 @@ jobs:
         run: python research/rot009_source_first_full_tensor.py
       - name: ROT-010 test Rainich identity against all ordinary Maxwell 2-forms
         run: python research/rot010_rainich_screen.py
+      - name: ROT-011 test canonical Einstein-Proca sources against exact SEC obstruction
+        run: python research/rot011_einstein_proca_sec.py
