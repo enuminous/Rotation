@@ -70,3 +70,7 @@ These results do **not** rule out scalar–vector couplings, nonminimal curvatur
 ## I. ROT-009 — passing the scalar wave and trace is not enough
 
 In the [ROT-009 source-first full-tensor test](../research/ROT-009_FULL_TENSOR_AUDIT.md), the frozen log-time plus linear-space scalar \(\phi=(101d/100)\ln a+dx\), \(d^2=39850/30199\), passes \(\Box\phi=0\) and the Einstein trace. But the fixed KO spacetime needs \(G_{xx}<0\), whereas the scalar gives \(T^{(\phi)}_{xx}=501d^2/800>0\) and the specified ordinary Maxwell potential adds only nonnegative squares to that component. **No source solution exists for these assumptions.** This does not ban general spatial scalars, other Maxwell field components, nonminimal actions, or new physical sources.
+
+## J. ROT-010 — even unrestricted ordinary Maxwell cannot source this fixed scalar
+
+With the ROT-009 logarithmic scalar fixed, the [ROT-010 algebraic Rainich audit](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) computes the residual stress \(S=G-T_\phi\) required of *any* Maxwell field. Although this stress is traceless, its mixed tensor fails \(S^2=(\operatorname{tr}S^2/4)I\) by the exact component \(a^4Q^{\hat0}{}_{\hat1}=-160795/326432\ne0\). Thus no ordinary real Maxwell 2-form, regardless of potential or orientation, can complete the source with **this same scalar** on the **same metric**. That no-go does not apply to other scalar fields or nonminimal/higher-derivative actions.

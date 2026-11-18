@@ -70,6 +70,9 @@ The [ROT-008 experiment](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) provi
 ## ROT-009 — exact pressure/tension sign test of the physical source
 
 The [ROT-009 full-tensor audit](../research/ROT-009_FULL_TENSOR_AUDIT.md) confirms that the logarithmic scalar with the declared Maxwell potential passes the previous scalar wave and Einstein trace checks, but **cannot** source the fixed expanding and rotating KO metric: \(G_{xx}=-399/1616<0\) while \(T_{xx}\ge0\) for both real scalar branches and all real Maxwell amplitudes. The proof uses the full predeclared source action, with an exact strict gap. It is not a general scalar–vector no-go, an observational detection, a derivation of ME-056, or a reason to alter the canonical Monolithic 102 texts.
+## ROT-010 — invariant stress exclusion after removing the Maxwell potential ansatz
+
+Where ROT-009 rejected a specific electromagnetic potential, [ROT-010](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) uses the classical four-dimensional Rainich necessary condition to exclude **any** ordinary Maxwell 2-form when combined with the **unchanged** logarithmic real scalar on the fixed KO metric. A nonzero tensor certificate cannot be repaired by choosing another Maxwell gauge or orientation. This remains a conditional failure of the chosen source, not an EFMW-specific derivation, observation or global physical no-go; canonical ME-055/056 are unchanged.
 ## Scope warning
 
 A theorem about the formal **specialization** does not prove the original relativistic statement. A theorem about a deliberately chosen scalar expansion equation does not prove it follows from Einstein's equations. Source-level Lean hygiene and past reported builds should not be presented here as a fresh independent kernel replay.

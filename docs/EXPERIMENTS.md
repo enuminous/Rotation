@@ -1,6 +1,6 @@
 # Rotation experimental program — freeze → predict → test → ablate → reproduce
 
-**Updated 2026-11-17.** ROT-004 through ROT-009 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
+**Updated 2026-11-18.** ROT-004 through ROT-010 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
 
 ## Completed bounded mathematical investigations
 
@@ -12,6 +12,7 @@
 | ROT-007 | [Source-first Einstein–scalar–Maxwell test](../research/ROT-007_EINSTEIN_SCALAR_MAXWELL_AUDIT.md) | PASS for exact negative mathematical witness; FAIL for the frozen real homogeneous scalar, V=Lambda=0 and Maxwell fields because the Einstein trace forces a negative real derivative square; richer actions and spatial scalar gradients UNRESOLVED |
 | ROT-008 | [Two-branch recursive no-go](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) | PASS source-pinned two independent proof orders, six nodes and two terminal contradictions; FAIL for frozen real phi=ct+dx coupled to source-free Maxwell; broader scalar profiles UNRESOLVED |
 | ROT-009 | [Source-first logarithmic scalar and full-tensor audit](../research/ROT-009_FULL_TENSOR_AUDIT.md) | PASS wave and Einstein trace, full 10-component residual construction and Maxwell stress identities; FAIL for the frozen complete source because Gxx<0 while real scalar/Maxwell Txx≥0 on both sign branches; other physical matter actions UNRESOLVED |
+| ROT-010 | [Unrestricted Maxwell Rainich no-go](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) | PASS six-component generic and nonzero null-field Maxwell controls; FAIL for **any ordinary real Maxwell 2-form** with the same fixed logarithmic scalar, because S=G−T_scalar violates the squared-tensor Rainich identity by a nonzero exact fraction |
 
 All results are scoped to their mathematical hypotheses. A full Einstein-tensor computation does not produce an observed cosmology. A source defined by \(T=G/\kappa\) is not a microphysical model. A result about one metric does not rule out all rotating spacetimes.
 
@@ -22,6 +23,11 @@ ROT-009 tested the [previously frozen logarithmic scalar candidate](../research/
 ### Next gate — a new independently justified physical source (not selected or run)
 
 Do **not** repair the negative result by adjusting a potential or metric after seeing the obstruction. The next source must be specified in a separate protocol before calculation, with an independently motivated stress that can support the needed directional tension and flux while respecting energy conditions, causality and full matter dynamics. Observational validation remains blocked until a source and uniquely identifiable prediction exist.
+## ROT-010 — algebraic termination of Maxwell freedom
+
+ROT-009 excluded a particular Maxwell potential. [ROT-010](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) tested **every** ordinary Maxwell 2-form algebraically and found a necessary Rainich tensor identity fails for the same frozen scalar and fixed geometry. The exact certificate is \(a^4 Q^{\hat0}{}_{\hat1}=-160795/326432\ne0\), for both scalar signs on the full domain. General six-component and null-Maxwell positive controls passed. The candidate **FAILS** without needing to solve Maxwell differential equations.
+
+**Next physical-source gate (not run):** Specify a new matter action before inspecting tensor residuals, with a principled source of directional stress/flux and an independent observable, or close the frozen model and redirect effort to the already open observational identifiability obligations. Do not silently retune ROT-009/010.
 ## Independent baseline tracks still open
 
 ### ROT-001 — mathematical normalization and degeneracy
@@ -60,6 +66,7 @@ Compare an ordinary real scalar, ordinary complex field, scalar with U(1) gauge 
 | Homogeneous real scalar plus standard Maxwell under frozen minimal action | **FAIL (ROT-007)** | Einstein trace contradiction for this fixed KO metric |
 | Linear real scalar in time and space plus Maxwell | **FAIL (ROT-008)** | Wave and Einstein trace cannot both hold for constants c,d |
 | Logarithmic real scalar plus the frozen Maxwell potential | **FAIL (ROT-009)** | Wave/trace PASS; negative Einstein Gxx conflicts with nonnegative Txx for both signs of d |
+| Frozen logarithmic real scalar with **arbitrary ordinary Maxwell tensor** | **FAIL (ROT-010)** | Traceless candidate stress fails classical squared-tensor Rainich identity |
 | Independently derived viable EFMW matter source | **UNRESOLVED** | Full field action and exact stress tensor |
 | EFMW-unique identifiable rotational observable | **UNRESOLVED** | Prediction beyond curvature/ordinary models |
 | Current Planck-compatible astronomical fit | **UNRESOLVED** | Reproducible likelihood and constraints |

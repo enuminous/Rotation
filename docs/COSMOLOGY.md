@@ -62,6 +62,9 @@ The [exact recursive ROT-008 audit](../research/ROT-008_RECURSIVE_TERMINAL_REPOR
 ## ROT-009 — an exact sourced-model failure beyond wave and trace
 
 [ROT-009](../research/ROT-009_FULL_TENSOR_AUDIT.md) independently reconstructed the full Einstein and scalar–Maxwell stress tensors for the frozen logarithmic candidate. Although its scalar wave equation and Einstein trace hold, the \(xx\) Einstein component has a strictly nonzero sign-definite residual. The fixed source candidate therefore **fails**. This is a mathematical model-selection result about one chosen metric and source, **not** a new constraint from CMB/galaxy observations or proof against every rotating spacetime.
+## ROT-010 — Rainich identity blocks all ordinary Maxwell fields for one frozen scalar
+
+The [ROT-010 source audit](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) strengthens the earlier ROT-009 negative result by allowing all six algebraic electromagnetic field components, then showing that the required residual source stress fails an exact classical Maxwell Rainich squared-tensor identity. It excludes **ordinary Maxwell stress with the same fixed scalar** but is not a measurement of global cosmic rotation, and says nothing generally about different scalar fields, added sectors or cosmological models.
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 40 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 42 source records.
 
 Run locally:
 
@@ -96,6 +96,14 @@ With the fixed massless scalar–Maxwell action and a real linear scalar \(\phi(
 For the same causal expanding and rotating KO metric, the previously frozen real logarithmic scalar \(\phi=(101d/100)\ln a+dx\) with \(d^2=39850/30199\) satisfies the scalar wave and Einstein-trace tests. However the exact geometric component \(G_{xx}=-399/1616<0\) conflicts with the proposed scalar and standard Maxwell stress \(T_{xx}=501d^2/800+25E^2/(202a^2)+50(E'^2+B'^2)/101\ge0\). The positive mismatch \(T_{xx}-G_{xx}\ge259299/241592\) holds for all real amplitudes and both signs of \(d\), for every \(t>-2\). **FAIL for this particular source ansatz; full model impossible.**
 
 Ten Einstein residual components and the Maxwell divergence equations were constructed, but the latter need not be solved once a necessary Einstein component is impossible. The conclusion does not exclude other electromagnetic field configurations, scalar potentials, nonminimal coupling, richer physical source actions or rotating universes in general. **No cosmic rotation detection** is claimed.
+
+## ROT-010 — No ordinary Maxwell 2-form can rescue the frozen scalar source
+
+**Published:** [ROT-010 exact Rainich audit](research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) · [frozen exploratory protocol](research/ROT-010_PROTOCOL.md) · [SymPy reproducer](research/rot010_rainich_screen.py) · [actual CI machine ledger](research/ROT-010_TERMINAL_LEDGER.json).
+
+ROT-009 ruled out one electromagnetic potential pattern. ROT-010 **removes that restriction**: the remaining stress S=G−T_scalar for the *same fixed logarithmic scalar* must obey the classical Maxwell Rainich squared-tensor identity for **any** real ordinary Maxwell 2-form. It is traceless, but its squared identity fails with exact nonzero orthonormal tensor component \(a^4 Q^{\hat0}{}_{\hat1}=-160795/326432\). Both scalar signs close. Six arbitrary Maxwell 2-form components and a nonzero null-field positive control correctly satisfy the Rainich identity.
+
+**FAIL for the fixed scalar + any standard Maxwell source**, including electromagnetic fields outside the ROT-009 potential ansatz. **Not** a no-go for every scalar profile, added matter, nonlinear electrodynamics, higher-derivative or nonminimal interactions, other rotating spacetimes, or the observed universe. The next proper gate is an *independently motivated physical source action*, not a post-hoc fit of the metric.
 
 ## Critical separation of claims
 
