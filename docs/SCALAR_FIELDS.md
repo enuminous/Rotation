@@ -74,3 +74,7 @@ In the [ROT-009 source-first full-tensor test](../research/ROT-009_FULL_TENSOR_A
 ## J. ROT-010 — even unrestricted ordinary Maxwell cannot source this fixed scalar
 
 With the ROT-009 logarithmic scalar fixed, the [ROT-010 algebraic Rainich audit](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) computes the residual stress \(S=G-T_\phi\) required of *any* Maxwell field. Although this stress is traceless, its mixed tensor fails \(S^2=(\operatorname{tr}S^2/4)I\) by the exact component \(a^4Q^{\hat0}{}_{\hat1}=-160795/326432\ne0\). Thus no ordinary real Maxwell 2-form, regardless of potential or orientation, can complete the source with **this same scalar** on the **same metric**. That no-go does not apply to other scalar fields or nonminimal/higher-derivative actions.
+
+## K. ROT-011 — massless real scalars and canonical Proca respect SEC
+
+ROT-011's [source-first SEC test](../research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) gives a general identity for ordinary **massless** canonical real scalar fields: trace reversal yields \(\nabla_a\phi\nabla_b\phi\), nonnegative along any timelike observer. Standard Maxwell and real Proca with \(\mu^2\ge0\) contribute nonnegative trace-reversed stress as well. The selected KO Ricci has a negative timelike contraction; thus the fixed metric cannot be supported solely by these sectors with zero cosmological constant. **A scalar potential can change this SEC argument**, so it is an excluded action feature, not an exclusion of every scalar-based physical theory.

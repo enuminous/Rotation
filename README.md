@@ -34,7 +34,7 @@ The root [`index.html`](index.html), [`assets/rotation-lab.js`](assets/rotation-
 | **Vorticity & strain** | Angular speed, trace-free strain, tracer count | Divergence-free velocity, tracer motion and curl |
 | **Cosmic degeneracy / ME-056** | Curvature, rotation, scale factor, expansion base | Two distinct parameter sets with identical H²(a) |
 
-**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 42 source records.
+**Controls:** Play/pause, reset, step, speed, parameter sliders, 1–6 keyboard mode switching, and CSV export of analytic **toy** values. The original evidence browser remains available with search, status/domain filters, and links to the 44 source records.
 
 Run locally:
 
@@ -104,6 +104,14 @@ Ten Einstein residual components and the Maxwell divergence equations were const
 ROT-009 ruled out one electromagnetic potential pattern. ROT-010 **removes that restriction**: the remaining stress S=G−T_scalar for the *same fixed logarithmic scalar* must obey the classical Maxwell Rainich squared-tensor identity for **any** real ordinary Maxwell 2-form. It is traceless, but its squared identity fails with exact nonzero orthonormal tensor component \(a^4 Q^{\hat0}{}_{\hat1}=-160795/326432\). Both scalar signs close. Six arbitrary Maxwell 2-form components and a nonzero null-field positive control correctly satisfy the Rainich identity.
 
 **FAIL for the fixed scalar + any standard Maxwell source**, including electromagnetic fields outside the ROT-009 potential ansatz. **Not** a no-go for every scalar profile, added matter, nonlinear electrodynamics, higher-derivative or nonminimal interactions, other rotating spacetimes, or the observed universe. The next proper gate is an *independently motivated physical source action*, not a post-hoc fit of the metric.
+
+## ROT-011 — Strong energy condition excludes standard Proca sources for the fixed rotating geometry
+
+**Published:** [ROT-011 exact Einstein–Proca SEC audit](research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) · [source-first protocol](research/ROT-011_PROTOCOL.md) · [reproducer](research/rot011_einstein_proca_sec.py) · [executed CI ledger](research/ROT-011_TERMINAL_LEDGER.json).
+
+Moving beyond ordinary Maxwell, ROT-011 tests canonical *massive* real Proca fields with positive kinetic signs and nonnegative squared mass, optionally combined with massless canonical real scalars and Maxwell fields, all with \(\Lambda=0\). The frozen KO metric has an **exact SEC-violating** timelike observer: \(v^{\hat a}=(1,0,1/10,0)\), \(v^2=-99/100\), and \(a^2R_{\hat a\hat b}v^{\hat a}v^{\hat b}=(703-80\sqrt{101})/80800<0\). The canonical source sectors have **nonnegative** trace-reversed stress for every timelike observer, including arbitrary local Proca and Maxwell component choices. **The entire named source class FAILS as a sole source of this exact geometry.**
+
+The earlier WEC-positive effective source is not contradicted: WEC does not imply SEC. Positive scalar potentials, a nonzero cosmological constant, nonminimal/higher-derivative interactions, additional fluids or different spacetimes remain **UNRESOLVED**. No general Proca no-go or measured universal cosmic rotation is claimed.
 
 ## Critical separation of claims
 

@@ -1,6 +1,6 @@
 # Open obligations and limits — the work required before stronger conclusions
 
-Status as of **2026-11-17**. The obligations below concern the physical EFMW theory. ROT-004–010 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
+Status as of **2026-11-18**. The obligations below concern the physical EFMW theory. ROT-004–011 close **bounded mathematical subtests**, not the cross-field physics or observational claims.
 
 | ID | Obligation | Why it matters | Proposed test/owner role |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Status as of **2026-11-17**. The obligations below concern the physical EFMW the
 | ROT-O15 | Reconcile ME-056 with the full 1+3 Einstein constraint | ROT-004 derives a necessary shear/curvature bridge; no new metric | Source-pinned rotating metric and physical congruence |
 | ROT-O16 | Test an expanding rotating metric in ROT-005 | Gödel proves rotation without expansion; cannot stand in for an expanding cosmology | Einstein tensor, matter conservation, kinematics and null limit |
 
-| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006–010 exclude several frozen matter-source classes; ROT-010 closes all ordinary Maxwell 2-forms for the same fixed log scalar | Select and derive a physically motivated new action before testing |
+| ROT-O17 | Derive an independently specified physical source for the KO metric | ROT-006–011 exclude several frozen matter sources; ROT-011 rules out all canonical SEC-satisfying Proca/Maxwell/massless real scalar sums for Λ=0 | Select and derive a physically motivated new action before testing |
 | ROT-O18 | Resolve ME-056 parameter degeneracy in an expanding, rotating metric | Exact H² mismatch under natural identification, yet scalar fit by retuned k | Independent curvature/vorticity observable |
 | ROT-O19 | Test real-data viability of a causally admissible rotating cosmology | Mathematical source and WEC do not establish CMB compatibility | Model-dependent likelihood and sealed data controls |
 
@@ -36,6 +36,8 @@ Status as of **2026-11-17**. The obligations below concern the physical EFMW the
 | ROT-O24 | Independently derive matter fields capable of the required directional stress and flux | ROT-010 excludes **all ordinary Maxwell 2-forms** with the fixed logarithmic scalar by a Rainich identity | Predefine a new independently motivated action or scalar profile before any fit |
 
 | ROT-O25 | Remove the ROT-009 Maxwell potential restriction without changing its scalar | ROT-010 exact Rainich tensor has a nonzero component; all six Maxwell-component and null-field controls pass | **CLOSED / FAIL** for any standard Maxwell 2-form combined with the fixed log scalar |
+
+| ROT-O26 | Test canonical real Proca matter beyond Maxwell without a fitted vector potential | ROT-011 exact Ricci contraction violates SEC while every specified positive-kinetic Proca/Maxwell/massless scalar source obeys it | **CLOSED / FAIL** for those SEC matter sectors, the fixed metric, and Λ=0 |
 
 ## First bounded sequence
 

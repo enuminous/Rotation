@@ -65,6 +65,9 @@ The [exact recursive ROT-008 audit](../research/ROT-008_RECURSIVE_TERMINAL_REPOR
 ## ROT-010 — Rainich identity blocks all ordinary Maxwell fields for one frozen scalar
 
 The [ROT-010 source audit](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) strengthens the earlier ROT-009 negative result by allowing all six algebraic electromagnetic field components, then showing that the required residual source stress fails an exact classical Maxwell Rainich squared-tensor identity. It excludes **ordinary Maxwell stress with the same fixed scalar** but is not a measurement of global cosmic rotation, and says nothing generally about different scalar fields, added sectors or cosmological models.
+## ROT-011 — effective source WEC can coexist with SEC violation
+
+The [ROT-011 exact audit](../research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) proves the selected KO metric violates **SEC** in an explicitly timelike observer direction, despite its ROT-005 reconstructed effective source satisfying a bounded **WEC** inequality. WEC and SEC are distinct. Standard positive-kinetic real Proca fields, Maxwell fields and massless real scalar fields all satisfy SEC, so no such finite combination alone can support this exact geometry for \(\Lambda=0\). Positive potentials, cosmological constants and alternative metrics were not tested. None of this is observational evidence for global rotation.
 ## Zero-rotation comparator
 
 The conventional isotropic and homogeneous FLRW comoving congruence has vanishing vorticity. It is an indispensable null model. A genuinely preferred rotation should outperform a well-calibrated ΛCDM/FLRW baseline **after** accounting for other CMB/systematic anisotropy and cosmic variance. Standard local vortices do not falsify FLRW.

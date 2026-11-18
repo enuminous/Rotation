@@ -73,6 +73,9 @@ The [ROT-009 full-tensor audit](../research/ROT-009_FULL_TENSOR_AUDIT.md) confir
 ## ROT-010 — invariant stress exclusion after removing the Maxwell potential ansatz
 
 Where ROT-009 rejected a specific electromagnetic potential, [ROT-010](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) uses the classical four-dimensional Rainich necessary condition to exclude **any** ordinary Maxwell 2-form when combined with the **unchanged** logarithmic real scalar on the fixed KO metric. A nonzero tensor certificate cannot be repaired by choosing another Maxwell gauge or orientation. This remains a conditional failure of the chosen source, not an EFMW-specific derivation, observation or global physical no-go; canonical ME-055/056 are unchanged.
+## ROT-011 — metric SEC violation excludes standard canonical Proca sources
+
+The [ROT-011 source-class audit](../research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) goes beyond the fixed scalar/Maxwell stress of ROT-010. On the exact KO metric and \(\Lambda=0\), a timelike direction has \(a^2 R_{ab}v^av^b=(703-80\sqrt{101})/80800<0\), while **all** positive-kinetic real Proca fields with nonnegative squared masses, Maxwell fields and canonical massless real scalars have nonnegative trace-reversed stress in every timelike direction. The result excludes their finite positive combinations as sole sources of this metric. It is not an EFMW mechanism, an observational detection, or a general no-go for rotating Einstein–Proca solutions with other geometry or matter.
 ## Scope warning
 
 A theorem about the formal **specialization** does not prove the original relativistic statement. A theorem about a deliberately chosen scalar expansion equation does not prove it follows from Einstein's equations. Source-level Lean hygiene and past reported builds should not be presented here as a fresh independent kernel replay.

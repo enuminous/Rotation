@@ -1,6 +1,6 @@
 # Rotation experimental program — freeze → predict → test → ablate → reproduce
 
-**Updated 2026-11-18.** ROT-004 through ROT-010 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
+**Updated 2026-11-18.** ROT-004 through ROT-011 are **completed bounded mathematical investigations** with source-pinned CI; **ROT-001–003 have not undergone full independent confirmatory execution**. No astronomical confirmation of EFMW universal rotation is claimed.
 
 ## Completed bounded mathematical investigations
 
@@ -13,6 +13,7 @@
 | ROT-008 | [Two-branch recursive no-go](../research/ROT-008_RECURSIVE_TERMINAL_REPORT.md) | PASS source-pinned two independent proof orders, six nodes and two terminal contradictions; FAIL for frozen real phi=ct+dx coupled to source-free Maxwell; broader scalar profiles UNRESOLVED |
 | ROT-009 | [Source-first logarithmic scalar and full-tensor audit](../research/ROT-009_FULL_TENSOR_AUDIT.md) | PASS wave and Einstein trace, full 10-component residual construction and Maxwell stress identities; FAIL for the frozen complete source because Gxx<0 while real scalar/Maxwell Txx≥0 on both sign branches; other physical matter actions UNRESOLVED |
 | ROT-010 | [Unrestricted Maxwell Rainich no-go](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) | PASS six-component generic and nonzero null-field Maxwell controls; FAIL for **any ordinary real Maxwell 2-form** with the same fixed logarithmic scalar, because S=G−T_scalar violates the squared-tensor Rainich identity by a nonzero exact fraction |
+| ROT-011 | [Einstein–Proca strong-energy-condition audit](../research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) | PASS exact timelike Ricci negative witness and arbitrary Proca/Maxwell/scalar energy-condition controls; FAIL for any finite positive combination of canonical Proca, Maxwell, massless real scalars with Λ=0 as the sole source of the selected metric |
 
 All results are scoped to their mathematical hypotheses. A full Einstein-tensor computation does not produce an observed cosmology. A source defined by \(T=G/\kappa\) is not a microphysical model. A result about one metric does not rule out all rotating spacetimes.
 
@@ -28,6 +29,11 @@ Do **not** repair the negative result by adjusting a potential or metric after s
 ROT-009 excluded a particular Maxwell potential. [ROT-010](../research/ROT-010_RAINICH_ALGEBRAIC_AUDIT.md) tested **every** ordinary Maxwell 2-form algebraically and found a necessary Rainich tensor identity fails for the same frozen scalar and fixed geometry. The exact certificate is \(a^4 Q^{\hat0}{}_{\hat1}=-160795/326432\ne0\), for both scalar signs on the full domain. General six-component and null-Maxwell positive controls passed. The candidate **FAILS** without needing to solve Maxwell differential equations.
 
 **Next physical-source gate (not run):** Specify a new matter action before inspecting tensor residuals, with a principled source of directional stress/flux and an independent observable, or close the frozen model and redirect effort to the already open observational identifiability obligations. Do not silently retune ROT-009/010.
+## ROT-011 — SEC gate closes the canonical Proca/Maxwell/massless scalar source class
+
+[ROT-011](../research/ROT-011_EINSTEIN_PROCA_SEC_AUDIT.md) identifies an explicit timelike direction for which the fixed KO Ricci tensor is negative, while standard real Proca with \(\mu^2\ge0\), Maxwell, and massless real scalar sources obey SEC for **all** real field profiles. Both the pure-Proca and combined canonical source possibilities terminate at the same exact contradiction, without Proca ODE fitting. The result holds only for the frozen metric, \(\Lambda=0\), and positive-kinetic matter in the named class. It does **not** exclude other spacetimes or source actions.
+
+**Next gate (not executed):** Require independent motivation for an SEC-violating source, positive scalar potential, nonzero cosmological constant, or a different rotating spacetime. Do not retrofit matter to the old KO metric and claim a sourced cosmological theory. Any new experiment must define an observable that distinguishes rotation from curvature.
 ## Independent baseline tracks still open
 
 ### ROT-001 — mathematical normalization and degeneracy
@@ -67,6 +73,7 @@ Compare an ordinary real scalar, ordinary complex field, scalar with U(1) gauge 
 | Linear real scalar in time and space plus Maxwell | **FAIL (ROT-008)** | Wave and Einstein trace cannot both hold for constants c,d |
 | Logarithmic real scalar plus the frozen Maxwell potential | **FAIL (ROT-009)** | Wave/trace PASS; negative Einstein Gxx conflicts with nonnegative Txx for both signs of d |
 | Frozen logarithmic real scalar with **arbitrary ordinary Maxwell tensor** | **FAIL (ROT-010)** | Traceless candidate stress fails classical squared-tensor Rainich identity |
+| Standard positive-kinetic real Proca (alone or with canonical Maxwell/massless real scalars), Λ=0 | **FAIL (ROT-011)** | Ricci(v,v)<0 for a timelike observer, but permitted source SEC(v,v)≥0 |
 | Independently derived viable EFMW matter source | **UNRESOLVED** | Full field action and exact stress tensor |
 | EFMW-unique identifiable rotational observable | **UNRESOLVED** | Prediction beyond curvature/ordinary models |
 | Current Planck-compatible astronomical fit | **UNRESOLVED** | Reproducible likelihood and constraints |
