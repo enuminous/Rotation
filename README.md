@@ -1,5 +1,8 @@
 # Rotation — a cross-field evidence atlas
 
+[EFMW research directory](https://github.com/enuminous/EFMW/blob/main/REPOSITORY_NAVIGATION.md#fundamental-physics-cosmology-and-quantum-geometry) · [Papers and research evidence](https://github.com/enuminous/papers/blob/main/README.md)
+
+
 **Monolithic Research • enuminous/Rotation • v0.1.0 • 2026-11-17**  
 **Status: OPEN RESEARCH ATLAS — NOT A DETECTION OF GLOBAL COSMIC ROTATION**
 
